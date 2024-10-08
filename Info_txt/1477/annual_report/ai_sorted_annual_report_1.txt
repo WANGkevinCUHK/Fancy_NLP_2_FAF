@@ -1,0 +1,33 @@
+Summary: ```txt
+This group summarizes the substantial shareholders' interests and short positions in the shares and underlying shares of the Company as of December 31, 2022. It includes information about various shareholders, their nature of interest, total number of shares/underlying shares, and approximate percentage in shareholding.
+```
+
+Reconstructed table: ```csv
+Name of Shareholders,Nature of interest,Total number of Shares/underlying Shares,Approximate percentage in shareholding
+6 Dimensions Capital,Beneficial interest,119890000,17.41%
+6 Dimensions Affiliates,Beneficial interest,6310000,0.92%
+6 Dimensions Capital GP LLC,Interest in controlled corporation,126200000,18.32%
+Suzhou Frontline II,Beneficial interest,88340000,12.83%
+Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership),Interest in controlled corporation,88340000,12.83%
+Suzhou 6 Dimensions,Beneficial interest,37860000,5.50%
+Suzhou Tongyu Investment Management Partnership (Limited Partnership),Interest in controlled corporation,37860000,5.50%
+Suzhou Yunchang Investment Consulting Co. Ltd.,Interest in controlled corporation,126200000,18.32%
+Ziqing CHEN,Interest in controlled corporation,126200000,18.32%
+Summer Iris Limited,Beneficial interest,78214230,11.36%
+Boyu Capital Fund IV L.P.,Interest in controlled corporation,78214230,11.36%
+Boyu Capital General Partner IV Ltd.,Interest in controlled corporation,78214230,11.36%
+Boyu Capital Group Holdings Ltd.,Interest in controlled corporation,81629730,11.85%
+TLS Beta Pte. Ltd.,Beneficial interest,54169400,7.87%
+Temasek Life Sciences Private Limited,Interest in controlled corporation,54169400,7.87%
+Fullerton Management Pte Ltd,Interest in controlled corporation,54169400,7.87%
+Temasek Holdings (Private) Limited,Interest in controlled corporation,59446400,8.63%
+Capital Research and Management Company,Beneficial interest,47080966,6.84%
+The Capital Group Companies Inc.,Interest in controlled corporation,47080966,6.84%
+```
+
+Notes: ```md
+1. The calculation is based on the total number of 688,736,795 Shares in issue as of December 31, 2022.
+2. Various relationships and control structures exist between the listed shareholders, as detailed in the notes of the original text.
+3. Some shareholders are deemed to have interests in shares held by other entities due to their control or management relationships.
+4. The information is based on what was known to the Directors or chief executive of the Company as of December 31, 2022.
+```

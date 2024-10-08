@@ -1,0 +1,96 @@
+Other information
+(b) Share options
+The Company adopted a share option scheme the (“Scheme”) at the annual general meeting held on 4 May 2017.
+A summary of the movements of the outstanding share options during the six months ended 30 June 2023 are as
+follows:
+Number of Share Options
+Granted(5) Exercised Lapsed
+during the during the during the
+Exercise As at reporting reporting reporting As at
+Name or category of Grantee Date of grant(4) Exercise period price 01/01/2023 period period period 30/06/2023
+(HK$)
+Director
+Dato’ Seri CHEAH Cheng Hye 23/11/2020 23/05/2022-22/08/2026 4.14 927,500 – – – 927,500
+23/11/2023-22/08/2026 4.14 927,500 – – – 927,500
+Mr. SO Chun Ki Louis 15/10/2018 15/04/2019-14/04/2025 5.87 6,000,000 – – – 6,000,000
+15/04/2020-14/04/2025 5.87 6,000,000 – – – 6,000,000
+15/04/2021-14/04/2025 5.87 6,000,000 – – – 6,000,000
+23/11/2020 23/05/2022-22/08/2026 4.14 12,081,000 – – – 12,081,000
+23/11/2023-22/08/2026 4.14 12,081,000 – – – 12,081,000
+Ms. HUNG Yeuk Yan Renee 23/11/2020 23/05/2022-22/08/2026 4.14 6,658,000 – – – 6,658,000
+23/11/2023-22/08/2026 4.14 6,658,000 – – – 6,658,000
+Mr. HO Man Kei, Norman 23/11/2020 23/05/2022-22/08/2026 4.14 6,658,000 – – – 6,658,000
+23/11/2023-22/08/2026 4.14 6,658,000 – – – 6,658,000
+Ms. WONG Wai Man June 11/03/2022 11/09/2023-10/03/2027 3.47 4,625,000 – – – 4,625,000
+11/03/2025-10/03/2027 3.47 4,625,000 – – – 4,625,000
+Dr. CHEN Shih-Ta Michael 23/11/2020 23/05/2022-22/08/2026 4.14 175,000 – – – 175,000
+23/11/2023-22/08/2026 4.14 175,000 – – – 175,000
+Mr. Nobuo OYAMA 23/11/2020 23/05/2022-22/08/2026 4.14 175,000 – – – 175,000
+23/11/2023-22/08/2026 4.14 175,000 – – – 175,000
+Mr. WONG Poh Weng 23/11/2020 23/05/2022-22/08/2026 4.14 175,000 – – – 175,000
+23/11/2023-22/08/2026 4.14 175,000 – – – 175,000
+Other employees in aggregate(3)15/10/2018 15/04/2019-14/04/2025 5.87 833,333 – – – 833,333
+15/04/2020-14/04/2025 5.87 833,333 – – – 833,333
+15/04/2021-14/04/2025 5.87 833,334 – – – 833,334
+23/11/2020 23/05/2022-22/08/2026 4.14 3,255,000 – – – 3,255,000
+23/11/2023-22/08/2026 4.14 3,255,000 – – – 3,255,000
+12/03/2021 12/09/2022-11/12/2026 5.55 4,000,000 – – – 4,000,000
+12/03/2024-11/12/2026 5.55 4,000,000 – – – 4,000,000
+Total 97,959,000 – – – 97,959,000
+Notes:
+(1) The closing prices of the Shares immediately before the share options granted on 15 October 2018, 23 November 2020, 12 March 2021 and
+11 March 2022 were HK$5.87, HK$4.14, HK$5.55 and HK$3.26 respectively.
+(2) No share option was cancelled during the period under review.
+(3) Eligible employees are working under employment contracts that are regarded as ‘continuous contracts’ for the purpose of the Employment
+Ordinance.
+(4) The vesting period of the share options is from the respective date of grant up to the date immediately preceding the commencement date of
+the exercise period.
+The number of options available for grant under the Scheme remained constant throughout the reporting period, with
+87,212,483 options available at both the beginning and the end of the reporting period.
+Value Partners Group Limited Interim Report 2023 41
+%**page41**%
+
+Other information
+Save as disclosed above, at no time during the period under review was the Company or its subsidiaries a party
+to any arrangement that enabled the Directors or any of their spouses or children under the age of 18 to acquire
+benefits by means of the acquisition of shares in, or debentures of, the Company or any other body corporate.
+All the options forfeited before expiry of the Scheme will be treated as lapsed options which will not be added back
+to the number of shares available to be issued under the Scheme.
+Share option expenses
+According to HKFRS 2, the fair value of share options granted to employees is recognized as an employee cost with
+a corresponding increase in a capital reserve within equity. The fair value is measured at grant date using Black-
+Scholes option pricing model, taking into account the terms and conditions upon which the options were granted. In
+addition, employee forfeiture rate is also considered in determining the amount of share option expenses.
+Where the employees have to meet vesting conditions before becoming unconditionally entitled to the share options,
+the total estimated fair value of the share options is spread over the vesting period, taking into account the probability
+that the options will vest or lapse.
+Since the Black-Scholes option pricing model requires input of highly subjective assumptions, any change in the
+subjective input assumptions may materially affect the estimation of the fair value of an option.
+Substantial shareholders’ interests
+As at 30 June 2023, the following persons (other than a Director or chief executive of the Company) had an
+interest or short position in the shares or underlying shares of the Company as recorded in the register required
+to be kept under section 336 of the SFO:
+Interests or short position in the Shares under the SFO
+Approximate
+percentage of
+issued Shares
+(For the aggregate
+Approximate number of Shares
+percentage of held/interested
+issued Shares Number of and the underlying
+Number of (For number of underlying Shares Shares under
+Shares held/ Shares held/ under the share the share option
+Name Nature of interest interested interested only) option schemes schemes)
+Ms. TO Hau Yin(1)(4) Spouse 464,464,000 25.42% 1,855,000 25.52%
+Mr. YEH V-Nee(4) Beneficial 298,705,324 16.35% – 16.35%
+Mrs. YEH Mira(2)(4) Spouse 298,705,324 16.35% – 16.35%
+Cheah Capital Management Limited(3)(4) Beneficial 403,730,484 22.10% – 22.10%
+Cheah Company Limited(3)(4) Corporate 403,730,484 22.10% – 22.10%
+Zedra Jersey Nominee
+Company Limited(3)(4) Nominee 403,730,484 22.10% – 22.10%
+Zedra Jersey Trust Corporation
+Limited(3)(4) Trustee 403,730,484 22.10% – 22.10%
+Haitong Securities Co., Ltd.(5) Corporate 182,669,200 9.99% – 9.99%
+42 Value Partners Group Limited Interim Report 2023
+%**page42**%
+

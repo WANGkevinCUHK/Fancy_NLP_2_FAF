@@ -1,0 +1,21 @@
+I will reconstruct the text into table and notes format as requested, focusing on information related to substantial shareholders' holdings. In this case, there is one relevant group about share repurchases by the company.
+
+Group 1:
+
+Summary: ```txt
+This group summarizes the Company's share repurchases during and after the six-month period ended September 30, 2023. It includes details of repurchases made in April 2023 and October 2023.
+```
+
+Reconstructed table: ```csv
+Month of repurchases,Total number of shares repurchased,Highest price paid per share (HK$),Lowest price paid per share (HK$),Aggregate amount paid (excluding expenses) (HK$)
+April 2023,2677000,5.00,4.99,13383000
+October 2023,14513000,5.06,4.63,70867170
+```
+
+Notes: ```md
+1. The 2,677,000 shares repurchased in April 2023 were cancelled in May 2023.
+2. The 14,513,000 shares repurchased in October 2023 were subsequently cancelled.
+3. As of the interim report date, the number of issued shares of the Company is 11,864,893,135.
+4. The Directors believe these repurchases are in the best interests of the Company and its shareholders and would lead to an enhancement of the earnings per share.
+5. Except for the disclosed share repurchases, neither the Company nor any of its subsidiaries had purchased, sold or redeemed any of the Company's listed securities during the six months ended September 30, 2023, and up to the date of the interim report.
+```

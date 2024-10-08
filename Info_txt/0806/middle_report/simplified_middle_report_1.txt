@@ -1,0 +1,79 @@
+Notes to the interim condensed consolidated financial information
+For the six months ended 30 June 2023
+23 Issued equity
+Number of Share Share Reorganization Total issued
+shares capital premium reserve equity
+HK$’000 HK$’000 HK$’000 HK$’000
+Audited
+As at 1 January 2022 1,849,982,831 184,998 2,066,893 (866,813) 1,385,078
+Shares repurchase (23,273,000) (2,327) (55,919) – (58,246)
+As at 31 December 2022 1,826,709,831 182,671 2,010,974 (866,813) 1,326,832
+Unaudited
+As at 1 January 2023 and 30 June 2023 1,826,709,831 182,671 2,010,974 (866,813) 1,326,832
+As at 30 June 2023, the total authorized number of ordinary shares of the Company was 5,000,000,000 shares
+(2022: 5,000,000,000 shares) with a par value of HK$0.1 (2022: HK$0.1) per share and all issued shares were fully
+paid.
+The ordinary shares are non-redeemable and are entitled to dividends. Each ordinary share carries one vote. In the
+case of winding up of the Company, ordinary shares carry the right to return the paid-up capital and any balance then
+remaining.
+During the period ended 30 June 2023, there were no repurchase of the Company’s shares. During the period ended
+30 June 2022, the Company purchased a total of 12,433,000 shares on the Stock Exchange and the aggregate
+consideration paid was HK$37,591,000. As at 30 June 2022, the purchased 12,433,000 shares were cancelled.
+Share options
+The Group operates a share option scheme for directors, employees and others whom the Board of Directors
+considers, in its sole discretion, have contributed or will contribute to the Group. The share option scheme is effective
+for a period of ten years from the date it was adopted, after which no new share options will be granted but the
+provisions of the scheme will remain in full force and effect in all other respects. The share options are subject to
+terms as the Board of Directors may determine. Such terms may include the exercise price of the share options,
+the minimum period for which the share options must be held before they can be exercised in whole or in part, the
+conditions that must be reached before the share options can be exercised. The Group has no legal or constructive
+obligation to repurchase or settle the share options in cash. No options were granted under the share option scheme
+during the six months ended 30 June 2023 (period ended 30 June 2022: 9,250,000 options).
+The total expense recognized in the condensed consolidated statement of comprehensive income for share options
+granted to directors and employees during the six months ended 30 June 2023 was HK$7,113,000 (six months
+ended 30 June 2022: HK$14,172,000) which has no impact to the Group’s cash flows. The weighted average fair
+value of options granted was determined using the Black-Scholes valuation model. The total fair value of options
+granted is amortized over the vesting period. The significant inputs into the model included share price at the grant
+date, exercise price, estimated volatility, estimated dividend yield based on historical dividend per share, expected
+option life and annual risk-free interest rate. The volatility was measured based on historic average share price
+volatility over a period of similar maturity to those of the share options.
+Value Partners Group Limited Interim Report 2023 33
+%**page33**%
+
+Notes to the interim condensed consolidated financial information
+For the six months ended 30 June 2023
+23 Issued equity (continued)
+Share options (continued)
+Movements in the number of share options outstanding and their related exercise prices are as follows:
+Average Number of
+exercise price options
+(HK$ per share) (’000)
+Audited
+As at 1 January 2022 4.65 92,309
+Expired 3.94 (500)
+Forfeited 3.14 (3,100)
+Granted 3.47 9,250
+As at 31 December 2022 4.55 97,959
+Unaudited
+As at 1 January 2023 and 30 June 2023 4.55 97,959
+Out of the 97,959,000 (31 December 2022: 97,959,000) outstanding share options, 54,604,500 (31 December
+2022: 54,604,500) options were exercisable as at 30 June 2023 with weighted average exercise price of HK$4.89
+(2022: HK$4.89). No options were exercised during the six months ended 30 June 2023 (year ended 31
+December 2022: Nil).
+Share options outstanding have the following expiry date and exercise price:
+Number of options (’000)
+Exercise price 30 June 31 December
+Expiry date (HK$ per share) 2023 2022
+Unaudited Audited
+14 April 2025 5.87 20,500 20,500
+22 August 2026 4.14 60,209 60,209
+11 December 2026 5.55 8,000 8,000
+10 March 2027 3.47 9,250 9,250
+The measurement dates of the share options were 11 March 2022, 12 March 2021, 23 November 2020, 15 October
+2018 and 31 May 2012, being the dates of grant of the share options. Where the grantees have to meet vesting
+conditions before becoming unconditionally entitled to the share options, the total estimated fair value of the share
+options is spread over the vesting period, taking into account the probability that the options will vest or lapse.
+Forfeiture rate is also considered in determining the amount of share option expenses.
+34 Value Partners Group Limited Interim Report 2023
+%**page34**%
+

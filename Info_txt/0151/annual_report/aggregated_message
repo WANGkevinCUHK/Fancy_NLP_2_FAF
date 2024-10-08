@@ -1,0 +1,29 @@
+Based on the provided information, I'll construct the requested txt file with entities, overview, and message. Here's the output:
+
+Time: 2023.3
+
+Entities: ```txt
+[1] Tsai Eng-Meng [actual controller, controls Want Power and Top Quality]
+[2] Want Power [wholly-owned by Tsai Eng-Meng]
+[3] Top Quality [wholly-owned by Tsai Eng-Meng]
+[4] ICCL
+[5] Tsai Shao-Chung
+```
+
+Overview: ```csv
+Entity, share number, per of share
+Tsai Eng-Meng, 6143843100, 51.7068%
+Want Power, 3332022400, 28.0424%
+Top Quality, 2811820700, 23.6644%
+ICCL, 608434480, 5.1206%
+Tsai Shao-Chung, 9665, 0.0007% (in Want Want Holdings Ltd., an associated corporation)
+```
+
+Message: ```txt
+No significant changes reported in this annual report. The shareholding structure remains largely the same as previously reported. Key points to note:
+
+1. Tsai Eng-Meng maintains control over 51.7068% of the company's shares through his wholly-owned entities Want Power and Top Quality.
+2. ICCL holds a significant stake of 5.1206%.
+3. The company has not been notified of any other substantial shareholders with interests or short positions that require disclosure under the SFO.
+4. Tsai Shao-Chung holds a small beneficial interest in Want Want Holdings Ltd., an associated corporation.
+```

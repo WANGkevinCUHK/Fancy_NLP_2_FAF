@@ -1,0 +1,51 @@
+I will reconstruct the text into table and notes format as requested, focusing on the sections related to substantial shareholders' holdings.
+
+Group 1:
+
+Summary: ```txt
+This group describes the changes in the Company's issued equity, including the number of shares, share capital, share premium, and reorganization reserve for the periods ended 31 December 2022 and 30 June 2023.
+```
+
+Reconstructed table: ```csv
+Date,Number of shares,Share capital (HK$'000),Share premium (HK$'000),Reorganization reserve (HK$'000),Total issued equity (HK$'000)
+1 January 2022,1849982831,184998,2066893,-866813,1385078
+31 December 2022,1826709831,182671,2010974,-866813,1326832
+30 June 2023,1826709831,182671,2010974,-866813,1326832
+```
+
+Notes: ```md
+1. As at 30 June 2023, the total authorized number of ordinary shares of the Company was 5,000,000,000 shares with a par value of HK$0.1 per share and all issued shares were fully paid.
+
+2. The ordinary shares are non-redeemable and are entitled to dividends. Each ordinary share carries one vote.
+
+3. During the period ended 30 June 2023, there were no repurchase of the Company's shares.
+
+4. During the period ended 30 June 2022, the Company purchased a total of 12,433,000 shares on the Stock Exchange and the aggregate consideration paid was HK$37,591,000. As at 30 June 2022, the purchased 12,433,000 shares were cancelled.
+```
+
+Group 2:
+
+Summary: ```txt
+This group provides information about the Company's share option scheme, including the number of outstanding options and their exercise prices as of 31 December 2022 and 30 June 2023.
+```
+
+Reconstructed table: ```csv
+Date,Average exercise price (HK$ per share),Number of options ('000)
+1 January 2022,4.65,92309
+31 December 2022,4.55,97959
+30 June 2023,4.55,97959
+```
+
+Notes: ```md
+1. Out of the 97,959,000 outstanding share options, 54,604,500 options were exercisable as at 30 June 2023 with weighted average exercise price of HK$4.89.
+
+2. No options were exercised during the six months ended 30 June 2023.
+
+3. Share options outstanding have the following expiry dates and exercise prices:
+   - 14 April 2025: 20,500,000 options at HK$5.87 per share
+   - 22 August 2026: 60,209,000 options at HK$4.14 per share
+   - 11 December 2026: 8,000,000 options at HK$5.55 per share
+   - 10 March 2027: 9,250,000 options at HK$3.47 per share
+
+4. The measurement dates of the share options were 11 March 2022, 12 March 2021, 23 November 2020, 15 October 2018 and 31 May 2012, being the dates of grant of the share options.
+```

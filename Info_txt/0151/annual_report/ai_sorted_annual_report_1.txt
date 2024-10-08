@@ -1,0 +1,39 @@
+Group 1:
+
+Summary: ```txt
+This table shows the interests of directors in an associated corporation of the Company (long position). It includes the name of the director, the associated corporation, nature of interests, number of ordinary shares held, and the approximate percentage of total issued share capital of the associated corporation.
+```
+
+Reconstructed table: ```csv
+Name of Director,Name of the associated corporation,Nature of interests,Number of ordinary shares held,Approximate % of total issued share capital of the associated corporation
+Tsai Shao-Chung,Want Want Holdings Ltd.,Beneficial interests,9665,0.0007%
+```
+
+Notes: ```md
+1. Based on the Company's issued share capital as at 31 March 2023, comprising 11,882,083,135 shares.
+2. These shares are beneficially owned by Mr. Tsai Eng-Meng's children under the age of 18.
+3. These shares are directly held by Want Power Holdings Limited ("Want Power") and Top Quality Group Limited ("Top Quality") as to 3,332,022,400 shares and 2,811,820,700 shares respectively. Both Want Power and Top Quality are wholly-owned by Mr. Tsai Eng-Meng.
+4. These shares are directly held by Twitcher Limited, a company wholly-owned by Mr. Tsai Shao-Chung.
+5. These shares are directly held by ThemePark Dome Limited, a company wholly-owned by Mr. Tsai Wang-Chia.
+6. These shares are beneficially owned by Mr. Maki Haruo's spouse.
+7. These shares are directly held by Mr Big Capital Limited and Mr Big Limited as to 163,596,040 shares and 299,490,000 shares respectively. Mr Big Capital Limited is wholly-owned by Mr. Cheng Wen-Hsien. Mr. Cheng is also the controlling shareholder of Mr Big Limited holding 60% of its shares.
+```
+
+Group 2:
+
+Summary: ```txt
+This table presents the interests and short positions of substantial shareholders in the Company's shares and underlying shares, as recorded in the register required to be kept under section 336 of the SFO or as otherwise notified to the Company and the HK Stock Exchange.
+```
+
+Reconstructed table: ```csv
+Name of shareholders,Nature of interests,Number of shares held,Approximate % of the issued share capital of the Company
+Want Power,Beneficial interests,3332022400,28.0424%
+Top Quality,Beneficial interests,2811820700,23.6644%
+ICCL,Beneficial interests,608434480,5.1206%
+```
+
+Notes: ```md
+1. Based on the Company's issued share capital as at 31 March 2023, comprising 11,882,083,135 shares.
+2. These shares are directly held by Want Power Holdings Limited ("Want Power") and Top Quality Group Limited ("Top Quality") as to 3,332,022,400 shares and 2,811,820,700 shares respectively. Both Want Power and Top Quality are wholly-owned by Mr. Tsai Eng-Meng.
+```
+

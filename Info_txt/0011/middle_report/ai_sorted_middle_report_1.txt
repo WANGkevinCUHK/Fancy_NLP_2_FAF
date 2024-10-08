@@ -1,0 +1,61 @@
+Group 1:
+
+Summary: ```txt
+This table shows the interests in debentures of associated corporation of the Bank held by Vivien W M Chiu, an Alternate Chief Executive, as of June 30, 2023.
+```
+
+Reconstructed table: ```csv
+Name,Personal Interests,Family Interests,Corporate Interests,Other Interests,Total Interests
+Vivien W M Chiu,-,US$300000,-,-,US$300000
+```
+
+Notes: ```md
+1. Vivien W M Chiu's spouse had interests in US$300,000 of perpetual subordinated contingent convertible securities issued by HSBC Holdings plc. [Note 1]
+2. These securities would be converted into 79,570 ordinary shares in HSBC Holdings plc upon the occurrence of a capital adequacy trigger event. [Note 2]
+3. Ms Chiu's family interests in this table and the table under 'Interests in shares' represented the same interests. [Note 3]
+```
+
+Group 2:
+
+Summary: ```txt
+This table shows the conditional awards of ordinary shares in HSBC Holdings plc held by Directors and Alternate Chief Executives as of January 1, 2023, awards made and released during their term of office in the first half of the year, and awards held as of June 30, 2023.
+```
+
+Reconstructed table: ```csv
+Name,Awards held as at 1 January 2023,Awards made during the term of office in the first half of the year,Awards released during the term of office in the first half of the year,Awards held as at 30 June 2023
+Diana Cesar,111835,80768,78923,113680
+Kathleen C H Gan,122320,93054,73904,141470
+David Y C Liao,343819,259961,137087,466693
+Say Pin Saw,26921,18424,9915,35784
+Kathy K W Cheung,17211,21069,19659,18621
+Vivien W M Chiu,5346,2671,2625,5481
+Donald Y S Lam,28002,23064,26630,24436
+Rannie W L Lee,8696,22176,15379,15493
+```
+
+Notes: ```md
+1. Awards held as at 30 June 2023 included additional shares arising from scrip dividends, if any. [Note 1]
+2. Interests of Kathy K W Cheung, Vivien W M Chiu, Kathleen C H Gan, Donald Y S Lam and Say Pin Saw in ordinary shares of HSBC Holdings plc under the HSBC International Employee Share Purchase Plan included in their 'Personal Interests' disclosed in the table under 'Interests in shares'. [Note 2]
+3. All interests represented long positions. No short positions recorded as at 30 June 2023 in the Register of Directors' and Alternate Chief Executives' Interests and Short Positions under section 352 of the SFO. [Note 3]
+4. No right to subscribe for equity or debt securities of the Bank granted or exercised during the six months ended 30 June 2023. [Note 4]
+```
+
+Group 3:
+
+Summary: ```txt
+This table shows the substantial interests in the share capital of the Bank as of June 30, 2023. It lists the corporations that had interests or short positions in the shares or underlying shares of the Bank.
+```
+
+Reconstructed table: ```csv
+Name of Corporation,Number of Ordinary Shares in the Bank,Percentage of total
+The Hongkong and Shanghai Banking Corporation Limited,1188057371,62.14%
+HSBC Asia Holdings Limited,1188057371,62.14%
+HSBC Holdings plc,1188057371,62.14%
+```
+
+Notes: ```md
+1. The Hongkong and Shanghai Banking Corporation Limited is a wholly-owned subsidiary of HSBC Asia Holdings Limited, which is a wholly-owned subsidiary of HSBC Holdings plc. [Note 1]
+2. Interests of The Hongkong and Shanghai Banking Corporation Limited are recorded as interests of HSBC Asia Holdings Limited and HSBC Holdings plc. [Note 2]
+3. Directors regard HSBC Holdings plc as beneficial owner of 1,188,057,371 ordinary shares in the Bank (62.14%). [Note 3]
+4. All interests represented long positions. No short positions recorded as at 30 June 2023 in the Register of Interests in Shares and Short Positions under section 336 of the SFO. [Note 4]
+```

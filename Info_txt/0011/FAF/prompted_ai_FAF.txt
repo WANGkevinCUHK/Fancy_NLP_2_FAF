@@ -1,0 +1,51 @@
+We are now trying to construct FAF (freefloat-adjusted factor), which is the proportion 
+of a stock that is freely tradable in the market. Those stocks are not freely tradable is (1) stock hold by an 
+individual which is equal or more than 5% (2) stock holds by mother company or other investment company with is equal 
+or more than 5%. For example, Liu Ye hold 3.6%( 24,860,855 shares) Those stocks of him is tradable, but Temasek holds 
+6% shares. Those stocks is not tradable. Now I want you to construct a company’s stock’s FAF with our txt file, 
+which is merged from 2 files with different time stamp. The earlier version can be a reference if later version have 
+the information you need. If the later version do not have, then you need rely on earlier version. The format of 
+output is {FAF: xx
+FAF(predicted by trend)xx
+FAF is calculate by (num_total-num_frozen)/num_total }. For example: text
+is { Time: 2023.6 Entities: ```txt [1] HSBC Holdings plc [Ultimate parent company, beneficial owner] ``` Overview: 
+```csv Entity,Share number,Percentage of total HSBC Holdings plc,1188057371,62.14% ``` Message: ```txt 1. HSBC 
+Holdings plc maintains its substantial interest of 62.14% in the Bank through its wholly-owned subsidiaries HSBC Asia 
+Holdings Limited and The Hongkong and Shanghai Banking Corporation Limited.
+Time: 2023.6
+…```} The output is {0.3786
+0.3786
+FAF=(..-..)/..}
+
+Now the content you need to process is: {
+Time: 2023.6
+
+Entities:
+```txt
+[1] Rannie W L Lee [Director or Alternate Chief Executive]
+[2] HSBC Holdings plc [Ultimate parent company, beneficial owner]
+[3] HSBC Asia Holdings Limited [Intermediate holding company]
+[4] The Hongkong and Shanghai Banking Corporation Limited [Direct shareholder]
+```
+
+Overview:
+```csv
+Entity,Share number,Percentage of total
+HSBC Holdings plc,1188057371,62.14%
+Rannie W L Lee,15493,0.00081%
+```
+
+Message:
+```txt
+1. HSBC Holdings plc maintains its substantial interest of 62.14% in the Bank through its wholly-owned subsidiaries HSBC Asia Holdings Limited and The Hongkong and Shanghai Banking Corporation Limited.
+
+2. Rannie W L Lee, a Director or Alternate Chief Executive, experienced changes in their award holdings:
+   - Awards held increased from 8,696 to 15,493
+   - 22,176 new awards were granted
+   - 15,379 awards were released
+
+3. No short positions were recorded for any entities as of June 30, 2023.
+
+4. No rights to subscribe for equity or debt securities of the Bank were granted or exercised during the first half of 2023.
+```
+}

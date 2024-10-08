@@ -1,0 +1,31 @@
+Based on the provided information, I'll construct the requested output:
+
+Time: 2023.6
+
+Entities: ```txt
+[1] Dato' Seri CHEAH Cheng Hye [actual controller, controls Cheah Capital Management Limited]
+[2] Mr. YEH V-Nee
+[3] Cheah Capital Management Limited [controls Cheah Company Limited]
+[4] Zedra Jersey Trust Corporation Limited [trustee for a discretionary trust including Dato' Seri CHEAH Cheng Hye]
+[5] Haitong Securities Co. Ltd.
+[6] Ms. TO Hau Yin [spouse of Dato' Seri CHEAH Cheng Hye]
+[7] Mrs. YEH Mira [spouse of Mr. YEH V-Nee]
+```
+
+Overview: ```csv
+Entity, share number, per of share
+Dato' Seri CHEAH Cheng Hye, 464464000, 25.42%
+Cheah Capital Management Limited, 403730484, 22.10%
+Mr. YEH V-Nee, 298705324, 16.35%
+Haitong Securities Co. Ltd., 182669200, 9.99%
+```
+
+Message: ```txt
+1. The total number of issued shares as of 30 June 2023 is 1,826,709,831.
+2. There were no repurchases or cancellations of the Company's shares during the period ended 30 June 2023.
+3. The Company has 97,959,000 outstanding share options as of 30 June 2023, with 54,604,500 of them being exercisable.
+4. Dato' Seri CHEAH Cheng Hye's interests are held through a trust structure, with Zedra Jersey Trust Corporation Limited as the trustee.
+5. The interests of Cheah Capital Management Limited are duplicated in Dato' Seri CHEAH Cheng Hye's interests.
+6. Mr. YEH V-Nee's interests are held directly as beneficial owner.
+7. Haitong Securities Co. Ltd.'s interests are held through its controlled corporations.
+```

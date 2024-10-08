@@ -1,0 +1,30 @@
+Time: 2023.6
+
+Entities:
+```txt
+[1] Rannie W L Lee [Director or Alternate Chief Executive]
+[2] HSBC Holdings plc [Ultimate parent company, beneficial owner]
+[3] HSBC Asia Holdings Limited [Intermediate holding company]
+[4] The Hongkong and Shanghai Banking Corporation Limited [Direct shareholder]
+```
+
+Overview:
+```csv
+Entity,Share number,Percentage of total
+HSBC Holdings plc,1188057371,62.14%
+Rannie W L Lee,15493,0.00081%
+```
+
+Message:
+```txt
+1. HSBC Holdings plc maintains its substantial interest of 62.14% in the Bank through its wholly-owned subsidiaries HSBC Asia Holdings Limited and The Hongkong and Shanghai Banking Corporation Limited.
+
+2. Rannie W L Lee, a Director or Alternate Chief Executive, experienced changes in their award holdings:
+   - Awards held increased from 8,696 to 15,493
+   - 22,176 new awards were granted
+   - 15,379 awards were released
+
+3. No short positions were recorded for any entities as of June 30, 2023.
+
+4. No rights to subscribe for equity or debt securities of the Bank were granted or exercised during the first half of 2023.
+```

@@ -1,0 +1,39 @@
+To calculate the Freefloat-Adjusted Factor (FAF), we need to determine the proportion of shares that are freely tradable. We'll identify shares held by entities owning 5% or more and subtract them from the total.
+
+### Given Data:
+
+- **Total Shares:** 1,826,709,831
+
+### Non-Tradable Shares:
+
+1. **Dato' Seri CHEAH Cheng Hye:** 25.42% (464,464,000 shares)
+2. **Cheah Capital Management Limited:** 22.10% (403,730,484 shares) - *Duplicated in Dato' Seri CHEAH Cheng Hye's interests*
+3. **Mr. YEH V-Nee:** 16.35% (298,705,324 shares)
+4. **Haitong Securities Co. Ltd.:** 9.99% (182,669,200 shares)
+
+### Calculating Non-Tradable Shares:
+
+Since Cheah Capital Management Limited's shares are duplicated, we only count Dato' Seri CHEAH Cheng Hye's shares once.
+
+- **Non-Tradable Shares:**
+  - Dato' Seri CHEAH Cheng Hye: 464,464,000
+  - Mr. YEH V-Nee: 298,705,324
+  - Haitong Securities Co. Ltd.: 182,669,200
+
+Total Non-Tradable = 464,464,000 + 298,705,324 + 182,669,200 = 945,838,524
+
+### Calculating FAF:
+
+\[ \text{FAF} = \frac{\text{Total Shares} - \text{Non-Tradable Shares}}{\text{Total Shares}} \]
+
+\[ \text{FAF} = \frac{1,826,709,831 - 945,838,524}{1,826,709,831} \]
+
+\[ \text{FAF} \approx 0.4820 \]
+
+### Output:
+
+```
+{FAF: 0.4820
+FAF(predicted by trend): 0.4820
+FAF = (1,826,709,831 - 945,838,524) / 1,826,709,831}
+```

@@ -1,0 +1,23 @@
+I will reconstruct the text into table and notes format as requested, focusing on the sections related to substantial shareholders' holdings.
+
+Group 1:
+
+Summary: ```txt
+This group describes the interests and short positions of substantial shareholders in the Company's shares, as required to be disclosed under the Securities and Futures Ordinance (SFO).
+```
+
+Reconstructed table: ```csv
+Shareholder,Number of Shares,Percentage of Total Issued Shares
+Want Power,N/A,N/A
+Top Quality,N/A,N/A
+```
+
+Notes: ```md
+1. Based on the Company's issued share capital as at 31 March 2023, comprising 11,882,083,135 shares. [Note 1]
+
+2. The shares held by Want Power and Top Quality were beneficially owned by Mr. Tsai Eng-Meng and are the same shares disclosed as Mr. Tsai Eng-Meng's interests in controlled corporations as set out under the heading "Directors' and chief executive's interests and short positions in shares, underlying shares and debentures of the Company and its associated corporation" above. [Note 2]
+
+3. As at 31 March 2023, the Company has not been notified by any persons (other than Directors and the chief executive of the Company) who had interests or short positions in the shares or underlying shares of the Company which requires disclosure to the Company under the provisions of Part XV of the SFO, or which were recorded in the register required to be kept under section 336 of the SFO.
+```
+
+This is the only relevant group related to substantial shareholders' holdings in the given text. The other sections of the text discuss directors' interests in contracts, management contracts, and connected transactions, which are not directly related to substantial shareholders' holdings.

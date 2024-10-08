@@ -1,0 +1,148 @@
+Please reconstruct the following text into a standard table and notes format, for table, 
+    please in csv format, for notes, please in remark format, and demonstrate them in sequential use neighbour code 
+    block. Here, you may encounter 2 or more tables, then, see `table + note' as a group. Show different groups in a 
+    sequential. When show a group, before the csv and mark down,you need to use a paragraph of txt to summarize the 
+    table and notation. The format is: 
+    Summary: ```txt
+here is summary
+```
+    Reconstructed table: ```csv
+title,title,title
+A,B,C
+```
+    Notes: ```md
+1. a [Note 1a]
+   b [Note 1b]
+2. [Note 2]
+```
+    Noted that all groups are not necessary. Only groups relating to descriptions of, or changes in, substantial 
+    shareholders' holdings are retained. Shareholders here include descriptions of individuals as well as organizations
+    such as funds.
+    for example, {univ namerankcuh
+k 37 thunote116
+note1 thu don't cons
+ider medicine dept univencodeptrank
+c
+uhknote 119!th
+u5
+note1
+    use dataof cU before 2024}
+    then, need to reconstruct and summarize to:
+    Group 1:
+
+    Summary: ```txt
+ this is table group 1, about university total rank ```
+    Reconstructed format: ```csv
+univ name, rank
+cuhk, 37
+thu, 16```
+    Notes:```1. thu don't consider medicine dept```
+    Group2:
+
+    Summary: ```txt
+ this is table group 2, about university economics department rank ```
+    Reconstructed format: ```csv
+univ name, rank
+cuhk, 19
+thu, 5```
+    Notes:```1. use data of cu before 2024 ```
+    Those Groups are not retained because they are not related to shareholder of any company. For groups related to share,
+    outputting streamlined language without loss of precision
+    
+Now the content you need to extract is: {
+INTERIM REPORT
+中期報告 其他資料
+2023/2024 Other Information
+PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S 購買、出售或贖回本公司上市證券
+LISTED SECURITIES
+The Company repurchased a total of 2,677,000 shares on the HK 本公司於截至2023年9月30日止六個月
+Stock Exchange for an aggregate amount (excluding expenses) of 期間在香港聯交所以總額（不包括費用）
+HK$13,383,000 during the six months ended 30 September 2023 and such 13,383,000港元購回合共2,677,000股股
+repurchased shares were cancelled in May 2023. Particulars of the shares 份，該等已購回之股份已於2023年5月註
+repurchased during the period are as follows: 銷。期間購回股份之詳情如下：
+Aggregate
+Total number Highest Lowest amount paid
+of shares price paid price paid (excluding
+repurchased per share per share expenses)
+Month of 已付每股 已付每股 已付總額
+repurchases 購回月份 購回股份總數 最高價 最低價 （不包括費用）
+(HK$) (HK$) (HK$)
+（港元） （港元） （港元）
+April 2023 2023年4月 2,677,000 5.00 4.99 13,383,000
+Subsequent to the balance sheet date of 30 September 2023 and up 於結算日2023年9月30日後直至本中期報告
+to the date of this interim report, the Company repurchased a total of 日期，本公司在香港聯交所以總額（不包括
+14,513,000 shares on the HK Stock Exchange for an aggregate amount 費用）70,867,170港元購回合共14,513,000
+(excluding expenses) of HK$70,867,170. Such repurchased shares were 股股份，該等已購回之股份已隨後註銷。
+subsequently cancelled. The number of issued shares of the Company 於本中期報告日期，本公司已發行股份數
+as at the date of this interim report is 11,864,893,135 shares. Particulars 目為11,864,893,135股。於結算日後在香
+of the shares repurchased on the HK Stock Exchange after the balance 港聯交所購回股份之詳情如下：
+sheet date are as follows:
+Aggregate
+Total number Highest Lowest amount paid
+of shares price paid price paid (excluding
+repurchased per share per share expenses)
+Month of 已付每股 已付每股 已付總額
+repurchases 購回月份 購回股份總數 最高價 最低價 （不包括費用）
+(HK$) (HK$) (HK$)
+（港元） （港元） （港元）
+October 2023 2023年10月 14,513,000 5.06 4.63 70,867,170
+The Directors of the Company believe that the above repurchases are 本公司董事認為上述股份購回符合本公司
+in the best interests of the Company and its shareholders and that such 及其股東之最佳利益，並可提高本公司之
+repurchases would lead to an enhancement of the earnings per share of 每股盈利。
+the Company.
+Saved for the share repurchases as disclosed in this interim report, neither 截至2023年9月30日止六個月期間及直至本
+the Company nor any of its subsidiaries had purchased, sold or redeemed 中期報告日期，除本中期報告披露的股份
+any of the listed securities of the Company during the six months ended 30 購回外，本公司或其任何附屬公司概無購
+September 2023 and up to the date of this interim report. 買、出售或贖回任何本公司之上市證券。
+58
+%**page59**%
+
+INTERIM REPORT
+其他資料 中期報告
+Other Information 2023/2024
+MODEL CODE FOR DIRECTORS’ SECURITIES 董事進行證券交易之標準守則
+TRANSACTIONS
+The Company has adopted the Model Code as set out in Appendix 10 本公司已採納上市規則附錄十就董事進行
+to the Listing Rules regarding directors’ securities transactions. Specific 證券交易之標準守則。本公司已向每位董
+enquiries have been made with our Directors, and all Directors confirmed 事作特定查詢，並獲得所有董事確認，彼
+that they have complied with the required standard set out in the Model 等於截至2023年9月30日止六個月期間已遵
+Code throughout the six months ended 30 September 2023. 守標準守則所訂之標準。
+CORPORATE GOVERNANCE PRACTICES 企業管治常規
+During the six months ended 30 September 2023, the Company has 截至2023年9月30日止六個月期間，本公
+complied with the code provisions set out in the Corporate Governance 司已遵守上市規則附錄十四企業管治守則
+Code (the “CG Code”) as stated in Part 2 of Appendix 14 to the Listing （「企業管治守則」）第二部份所載之守則條
+Rules, except for the deviation from the code provision C.2.1. 文規定，惟偏離守則條文第C.2.1條除外。
+Code provision C.2.1 provides that the roles of chairman and chief 根據守則條文第C.2.1條，主席與行政總
+executive should be separate and should not be performed by the same 裁的角色應予區分，不應由一人同時兼
+person. The Company deviates from this provision because Mr. Tsai Eng- 任。由於蔡衍明先生擔任主席兼行政總裁
+Meng performs both the roles of chairman and chief executive. Mr. Tsai is 兩個職務，故本公司偏離此條文。蔡先生
+the founder of the Group and has over 46 years of experience in the food 為本集團之創辦人，於食品及飲料方面擁
+and beverages industry. Given the current stage of development of the 有逾46年經驗。考慮到本集團目前之發展
+Group, the Board believes that vesting the two roles in the same person 階段，董事會認為，由一人同時兼任主席
+provides the Company with strong and consistent leadership and facilitates 與行政總裁，在實施並執行本集團的業務
+the implementation and execution of the Group’s business strategies. The 策略時，可為本公司提供強大而貫徹之領
+Group shall nevertheless review the structure from time to time in light of 導。然而，本集團將根據屆時情況不時檢
+the prevailing circumstances. 討現行架構。
+CHANGES OF DIRECTOR’S INFORMATION 董事資料變更
+Changes in Director’s information since the date of approval of the 自本公司2022/2023年報審批日起，須根據
+2022/2023 Annual Report, which are required to be disclosed pursuant to 上市規則第13.51B條而作出披露之董事資
+Rule 13.51B of the Listing Rules are set out below: 料變更如下：
+(a) Mr. Liao Ching-Tsun ceased to be a non-executive Director of the (a) 廖清圳先生於本公司2023年8月22日
+Company due to retirement by rotation at the annual general meeting 的股東週年大會上輪值退任本公司非
+of the Company held on 22 August 2023. 執行董事。
+(b) The Board has resolved to renew the service contract with Mr. Tsai (b) 董事會決議通過本公司與蔡衍明先
+Eng-Meng for a term of three years commencing 26 August 2023 生續訂服務合同，自2023年8月26日
+under the same principal terms and conditions. 起為期3年，合約主要條款及條文不
+變。
+APPENDIX 16 TO THE LISTING RULES 上市規則附錄十六
+According to paragraph 40 of Appendix 16 to the Listing Rules headed 根據上市規則附錄十六《財務資料的披露》
+“Disclosure of Financial Information”, save as disclosed herein, the 之第40段，除了在此報告已作披露者外，
+Company confirms that the Company’s current information in relation 本公司確認有關附錄十六第32段所列事宜
+to those matters set out in paragraph 32 of Appendix 16 has not been 的現有本公司資料與本公司2022/2023年報
+changed significantly from the information disclosed in the Company’s 所披露的資料並無重大變動。
+2022/2023 Annual Report.
+59
+%**page60**%
+
+
+}

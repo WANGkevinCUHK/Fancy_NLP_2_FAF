@@ -1,0 +1,140 @@
+" We are trying to trace the a company's shareholding structure and its changes, 
+we have a txt file recording such information, any ``Group`` information is a description of company's shareholding 
+structure or its changes consist of 3 parts, summary, main csv table, notation, where summary explain what the 
+``Group`` do. main csv table is the record the current shareholding structure or the change of the current 
+shareholding structure. The notation is an explanation of some entries in the main CSV table, to help us understand 
+the true shareholding structure of the company, which may have: (1) Notation of a person to say he control a company 
+in the CSV table (2) Notation of a company to indicate it holds shares through its subsidiaries (3) Notation to 
+clarify cross-shareholding relationships between companies (4) Notation to explain indirect shareholding through 
+multiple layers of companies (5) Notation to explain complex financial instruments that may convert to shares{We 
+don't care about the difference between the different shares, we only care about shares end up in the hands of what 
+company or whoever.}. Ultimately, you need to construct a txt file consist of entities, overview and message, 
+where entities is a summary of person or company we mention in the input file in the order of equity/share percentage, we care about the shares in his hands,
+overview is a overview of the share hold structure at this time, in the order of equity/share percentage. Message is change of share hold structure at this 
+time. If we do not overview, then we need message, otherwise, if we do have overview now, we only need a little important 
+message. Here, because our content is a combination of two files, it is possible that the same table separated 
+into two groups, so you can consider the corresponding two groups merged together. Here is the format: Time:{2023.6 
+if it is a middle report, 2022.12 if it is a annual report, otherwise it will be specified} Entities: ```txt
+ A [
+actual controller, control B company ]
+ B[intermediate controller`]``
+ Overview ```csv
+Entity, share number, 
+per at now
+A, 10000, 10%``` Message ```txt
+A sell 5% of share (through reduce holdings by B)``` here is a real 
+world example: { Group 1: Summary: ```txt This table shows the long positions in shares or underlying shares of the 
+company held by substantial shareholders as of June 30, 2023. ``` Reconstructed table: ```csv Name of shareholder,
+Nature of interest,Total number of Shares/underlying shares,Approximate percentage in shareholding 6 Dimensions 
+Capital,Beneficial interest,119890000,17.36% 6 Dimensions Affiliates,Beneficial interest,6310000,0.91% 6 Dimensions 
+Capital GP LLC,Interest in controlled corporation,126200000,18.27% Suzhou Frontline II,Beneficial interest,88340000,
+12.79% Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership),Interest in controlled corporation,
+88340000,12.79% Suzhou 6 Dimensions,Beneficial interest,37860000,5.48% Suzhou Tongyu Investment Management 
+Partnership (Limited Partnership),Interest in controlled corporation,37860000,5.48% Suzhou Yunchang Investment 
+Consulting Co. Ltd.,Interest in controlled corporation,126200000,18.27% Ziqing CHEN,Interest in controlled 
+corporation,126200000,18.27% Summer Iris Limited,Beneficial interest,78214230,11.32% Boyu Capital Fund IV L.P.,
+Interest in controlled corporation,78214230,11.32% Boyu Capital General Partner IV Ltd.,Interest in controlled 
+corporation,78214230,11.32% Boyu Capital Group Holdings Ltd.,Interest in controlled corporation,81629730,11.82% TLS 
+Beta Pte. Ltd.,Beneficial interest,54169400,7.84% Temasek Life Sciences Private Limited,Interest in controlled 
+corporation,54169400,7.84% Fullerton Management Pte Ltd,Interest in controlled corporation,54169400,7.84% Temasek 
+Holdings (Private) Limited,Interest in controlled corporation,59446400,8.61% Capital Research and Management Company,
+Beneficial interest,47735966,6.91% The Capital Group Companies Inc.,Interest in controlled corporation,47735966,
+6.91% ```Notes: ```md 1. The calculation is based on the total number of 690,711,280 Shares in issue as of June 30, 
+2023. 2. 6 Dimensions Capital GP, LLC, as the general partner of each of 6 Dimensions Capital and 6 Dimensions 
+Affiliates, is deemed to have an interest in the Shares held by each of 6 Dimensions Capital and 6 Dimensions 
+Affiliates. 3. Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership) is the general partner of 
+Suzhou Frontline II… 4. Boyu Capital Fund IV, L.P. (as the sole shareholder of Summer Iris Limited), Boyu Capital 
+General Partner IV, Ltd. (as the general partner of Boyu Capital Fund IV, L.P.) … 5. Boyu Capital Group Holdings Ltd. 
+is deemed to have an interest in the 3,415,500 Shares held … 6. TLS Beta Pte. Ltd. is a wholly-owned subsidiary of 
+Temasek Life Sciences Private Limited, which is in turn a wholly-owned subsidiary of Fullerton Management Pte Ltd, 
+which is in turn a wholly-owned subsidiary of Temasek Holdings (Private) Limited. Under the SFO, Temasek Life 
+Sciences Private Limited, Fullerton Management Pte Ltd and Temasek Holdings (Private) Limited are deemed to be 
+interested in the 54,169,400 Shares held by TLS Beta Pte. Ltd. 7. Temasek Holdings (Private) Limited is deemed to 
+have an interest in the 5,277,000 Shares held by Aranda Investments Pte. Ltd., which in turn is ultimately controlled 
+by Temasek Holdings (Private) Limited. 8. Capital Research and Management Company is a wholly-owned subsidiary of The 
+Capital Group Companies, Inc. The Capital Group Companies, Inc. is deemed to have an interest in the 47,735,
+966 Shares held by Capital Research and Management Company. ```} The output is:{ Time:{2023.6} Entities: ```txt
+ [1] 
+6 Dimensions [actual controller by 6 Dimensions Capital and 6 Dimensions affiliates] [2] Suzhou and Ziqing Chen  [
+actually controller by Suzhou Fuyan and Suzhou yunchang and Suzhou Tongyu]… Overview:```csv
+ Entities, share number, 
+per of share
+ 6 dimension, 12620000, 18.26%
+....``` Message:```txt
+```}
+Now the content you need to process is a middle_report: {
+Group 1:
+
+Summary: ```txt
+This table shows the awards held by Rannie W L Lee, a Director or Alternate Chief Executive, as of January 1, 2023, awards made and released during their term of office in the first half of the year, and awards held as of June 30, 2023.
+```
+
+Reconstructed table: ```csv
+Name,Awards held as at 1 January 2023,Awards made during the term of office in the first half of the year,Awards released during the term of office in the first half of the year,Awards held as at 30 June 2023
+Rannie W L Lee,8696,22176,15379,15493
+```
+
+Notes: ```md
+1. Awards held as at 30 June 2023 included additional shares arising from scrip dividends, if any. [Note 1]
+2. Interests of Kathy K W Cheung, Vivien W M Chiu, Kathleen C H Gan, Donald Y S Lam and Say Pin Saw in ordinary shares of HSBC Holdings plc under the HSBC International Employee Share Purchase Plan included in their 'Personal Interests' disclosed in the table under 'Interests in shares'. [Note 2]
+3. All interests represented long positions. No short positions recorded as at 30 June 2023 in the Register of Directors' and Alternate Chief Executives' Interests and Short Positions under section 352 of the SFO. [Note 3]
+4. No right to subscribe for equity or debt securities of the Bank granted or exercised during the six months ended 30 June 2023. [Note 4]
+```
+
+Group 2:
+
+Summary: ```txt
+This table shows the substantial interests in the share capital of the Bank as of June 30, 2023. It lists the corporations that had interests or short positions in the shares or underlying shares of the Bank.
+```
+
+Reconstructed table: ```csv
+Name of Corporation,Number of Ordinary Shares in the Bank,Percentage of total
+The Hongkong and Shanghai Banking Corporation Limited,1188057371,62.14%
+HSBC Asia Holdings Limited,1188057371,62.14%
+HSBC Holdings plc,1188057371,62.14%
+```
+
+Notes: ```md
+1. The Hongkong and Shanghai Banking Corporation Limited is a wholly-owned subsidiary of HSBC Asia Holdings Limited, which is a wholly-owned subsidiary of HSBC Holdings plc. [Note 1]
+2. Interests of The Hongkong and Shanghai Banking Corporation Limited are recorded as interests of HSBC Asia Holdings Limited and HSBC Holdings plc. [Note 2]
+3. Directors regard HSBC Holdings plc as beneficial owner of 1,188,057,371 ordinary shares in the Bank (62.14%). [Note 3]
+4. All interests represented long positions. No short positions recorded as at 30 June 2023 in the Register of Interests in Shares and Short Positions under section 336 of the SFO. [Note 4]
+```
+Group 1:
+
+Summary: ```txt
+This table shows the awards held by Rannie W L Lee, a Director or Alternate Chief Executive, as of January 1, 2023, awards made and released during their term of office in the first half of the year, and awards held as of June 30, 2023.
+```
+
+Reconstructed table: ```csv
+Name,Awards held as at 1 January 2023,Awards made during the term of office in the first half of the year,Awards released during the term of office in the first half of the year,Awards held as at 30 June 2023
+Rannie W L Lee,8696,22176,15379,15493
+```
+
+Notes: ```md
+1. Awards held as at 30 June 2023 included additional shares arising from scrip dividends, if any.
+2. Interests of Kathy K W Cheung, Vivien W M Chiu, Kathleen C H Gan, Donald Y S Lam and Say Pin Saw in ordinary shares of HSBC Holdings plc under the HSBC International Employee Share Purchase Plan included in their 'Personal Interests' disclosed in the table under 'Interests in shares'.
+3. All interests represented long positions. No short positions recorded as at 30 June 2023 in the Register of Directors' and Alternate Chief Executives' Interests and Short Positions under section 352 of the SFO.
+4. No right to subscribe for equity or debt securities of the Bank granted or exercised during the six months ended 30 June 2023.
+```
+
+Group 2:
+
+Summary: ```txt
+This table shows the substantial interests in the share capital of the Bank as of June 30, 2023. It lists the corporations that had interests or short positions in the shares or underlying shares of the Bank.
+```
+
+Reconstructed table: ```csv
+Name of Corporation,Number of Ordinary Shares in the Bank,Percentage of total
+The Hongkong and Shanghai Banking Corporation Limited,1188057371,62.14%
+HSBC Asia Holdings Limited,1188057371,62.14%
+HSBC Holdings plc,1188057371,62.14%
+```
+
+Notes: ```md
+1. The Hongkong and Shanghai Banking Corporation Limited is a wholly-owned subsidiary of HSBC Asia Holdings Limited, which is a wholly-owned subsidiary of HSBC Holdings plc.
+2. Interests of The Hongkong and Shanghai Banking Corporation Limited are recorded as interests of HSBC Asia Holdings Limited and HSBC Holdings plc.
+3. Directors regard HSBC Holdings plc as beneficial owner of 1,188,057,371 ordinary shares in the Bank (62.14%).
+4. All interests represented long positions. No short positions recorded as at 30 June 2023 in the Register of Interests in Shares and Short Positions under section 336 of the SFO.
+```
+}

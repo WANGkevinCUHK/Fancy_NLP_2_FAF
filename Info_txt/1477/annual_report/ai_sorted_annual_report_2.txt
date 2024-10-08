@@ -1,0 +1,35 @@
+Group 1:
+
+Summary: ```txt
+This group describes the movements in options under the 2021 Share Option Scheme for directors and other grantees of Ocumension Therapeutics during the year ended December 31, 2022.
+```
+
+Reconstructed table: ```csv
+Name of grantee,Date of grant,Vesting period,Exercise period,Exercise price (HK$ per Share),Number of Shares underlying outstanding options as of January 1 2022,Number of options granted during the Reporting Period,Number of options exercised during the Reporting Period,Number of options canceled/forfeited/lapsed during the Reporting Period,Number of Shares underlying outstanding options as of December 31 2022
+Mr. Ye LIU,"July 2, 2021 and September 9, 2022",(Note 1),(Note 1),"HK$27.43 and HK$11.41",8668000,2160000,0,0,10828000
+Dr. Zhaopeng HU,"September 30, 2021 and September 9, 2022",(Note 2),(Note 2),"HK$19.07 and HK$11.41",150000,137000,0,0,287000
+Other grantees in aggregate,"September 30, 2021 and September 9, 2022",(Note 3),(Note 3),"HK$19.07 and HK$11.41",5232561,10763000,0,545111,15450450
+Total,,,,,,14050561,13060000,0,545111,26565450
+```
+
+Notes: ```md
+1. The options granted to Mr. Liu on July 2, 2021 vest in four tranches over four years. The options granted on September 9, 2022 vest in four tranches over three years, with some tranches subject to performance targets.
+
+2. The options granted to Dr. Hu on both dates vest in four tranches over four years. The vesting is conditional upon completion of performance targets set out in the grant letters.
+
+3. Vesting details for other grantees are not specified in the given text.
+
+4. 2,160,000 options were granted to Mr. Liu on September 9, 2022.
+
+5. 137,000 options were granted to Dr. Hu on September 9, 2022.
+
+6. 10,763,000 options were granted to other grantees on September 9, 2022.
+
+7. The exercise price for options granted on September 9, 2022 was HK$11.41 per Share.
+
+8. "Other grantees in aggregate" refers to grantees other than the named directors.
+
+9. 545,111 options held by other grantees were canceled, forfeited, or lapsed during the Reporting Period.
+```
+
+This group is retained as it provides information about changes in substantial shareholders' holdings, specifically the share options held by directors and other grantees of Ocumension Therapeutics.

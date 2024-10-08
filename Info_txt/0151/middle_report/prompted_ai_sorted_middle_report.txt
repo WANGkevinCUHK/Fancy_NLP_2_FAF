@@ -1,0 +1,130 @@
+" We are trying to trace the a company's shareholding structure and its changes, 
+we have a txt file recording such information, any ``Group`` information is a description of company's shareholding 
+structure or its changes consist of 3 parts, summary, main csv table, notation, where summary explain what the 
+``Group`` do. main csv table is the record the current shareholding structure or the change of the current 
+shareholding structure. The notation is an explanation of some entries in the main CSV table, to help us understand 
+the true shareholding structure of the company, which may have: (1) Notation of a person to say he control a company 
+in the CSV table (2) Notation of a company to indicate it holds shares through its subsidiaries (3) Notation to 
+clarify cross-shareholding relationships between companies (4) Notation to explain indirect shareholding through 
+multiple layers of companies (5) Notation to explain complex financial instruments that may convert to shares{We 
+don't care about the difference between the different shares, we only care about shares end up in the hands of what 
+company or whoever.}. Ultimately, you need to construct a txt file consist of entities, overview and message, 
+where entities is a summary of person or company we mention in the input file in the order of equity/share percentage, we care about the shares in his hands,
+overview is a overview of the share hold structure at this time, in the order of equity/share percentage. Message is change of share hold structure at this 
+time. If we do not overview, then we need message, otherwise, if we do have overview now, we only need a little important 
+message. Here, because our content is a combination of two files, it is possible that the same table separated 
+into two groups, so you can consider the corresponding two groups merged together. Here is the format: Time:{2023.6 
+if it is a middle report, 2022.12 if it is a annual report, otherwise it will be specified} Entities: ```txt
+ A [
+actual controller, control B company ]
+ B[intermediate controller`]``
+ Overview ```csv
+Entity, share number, 
+per at now
+A, 10000, 10%``` Message ```txt
+A sell 5% of share (through reduce holdings by B)``` here is a real 
+world example: { Group 1: Summary: ```txt This table shows the long positions in shares or underlying shares of the 
+company held by substantial shareholders as of June 30, 2023. ``` Reconstructed table: ```csv Name of shareholder,
+Nature of interest,Total number of Shares/underlying shares,Approximate percentage in shareholding 6 Dimensions 
+Capital,Beneficial interest,119890000,17.36% 6 Dimensions Affiliates,Beneficial interest,6310000,0.91% 6 Dimensions 
+Capital GP LLC,Interest in controlled corporation,126200000,18.27% Suzhou Frontline II,Beneficial interest,88340000,
+12.79% Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership),Interest in controlled corporation,
+88340000,12.79% Suzhou 6 Dimensions,Beneficial interest,37860000,5.48% Suzhou Tongyu Investment Management 
+Partnership (Limited Partnership),Interest in controlled corporation,37860000,5.48% Suzhou Yunchang Investment 
+Consulting Co. Ltd.,Interest in controlled corporation,126200000,18.27% Ziqing CHEN,Interest in controlled 
+corporation,126200000,18.27% Summer Iris Limited,Beneficial interest,78214230,11.32% Boyu Capital Fund IV L.P.,
+Interest in controlled corporation,78214230,11.32% Boyu Capital General Partner IV Ltd.,Interest in controlled 
+corporation,78214230,11.32% Boyu Capital Group Holdings Ltd.,Interest in controlled corporation,81629730,11.82% TLS 
+Beta Pte. Ltd.,Beneficial interest,54169400,7.84% Temasek Life Sciences Private Limited,Interest in controlled 
+corporation,54169400,7.84% Fullerton Management Pte Ltd,Interest in controlled corporation,54169400,7.84% Temasek 
+Holdings (Private) Limited,Interest in controlled corporation,59446400,8.61% Capital Research and Management Company,
+Beneficial interest,47735966,6.91% The Capital Group Companies Inc.,Interest in controlled corporation,47735966,
+6.91% ```Notes: ```md 1. The calculation is based on the total number of 690,711,280 Shares in issue as of June 30, 
+2023. 2. 6 Dimensions Capital GP, LLC, as the general partner of each of 6 Dimensions Capital and 6 Dimensions 
+Affiliates, is deemed to have an interest in the Shares held by each of 6 Dimensions Capital and 6 Dimensions 
+Affiliates. 3. Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership) is the general partner of 
+Suzhou Frontline II… 4. Boyu Capital Fund IV, L.P. (as the sole shareholder of Summer Iris Limited), Boyu Capital 
+General Partner IV, Ltd. (as the general partner of Boyu Capital Fund IV, L.P.) … 5. Boyu Capital Group Holdings Ltd. 
+is deemed to have an interest in the 3,415,500 Shares held … 6. TLS Beta Pte. Ltd. is a wholly-owned subsidiary of 
+Temasek Life Sciences Private Limited, which is in turn a wholly-owned subsidiary of Fullerton Management Pte Ltd, 
+which is in turn a wholly-owned subsidiary of Temasek Holdings (Private) Limited. Under the SFO, Temasek Life 
+Sciences Private Limited, Fullerton Management Pte Ltd and Temasek Holdings (Private) Limited are deemed to be 
+interested in the 54,169,400 Shares held by TLS Beta Pte. Ltd. 7. Temasek Holdings (Private) Limited is deemed to 
+have an interest in the 5,277,000 Shares held by Aranda Investments Pte. Ltd., which in turn is ultimately controlled 
+by Temasek Holdings (Private) Limited. 8. Capital Research and Management Company is a wholly-owned subsidiary of The 
+Capital Group Companies, Inc. The Capital Group Companies, Inc. is deemed to have an interest in the 47,735,
+966 Shares held by Capital Research and Management Company. ```} The output is:{ Time:{2023.6} Entities: ```txt
+ [1] 
+6 Dimensions [actual controller by 6 Dimensions Capital and 6 Dimensions affiliates] [2] Suzhou and Ziqing Chen  [
+actually controller by Suzhou Fuyan and Suzhou yunchang and Suzhou Tongyu]… Overview:```csv
+ Entities, share number, 
+per of share
+ 6 dimension, 12620000, 18.26%
+....``` Message:```txt
+```}
+Now the content you need to process is a middle_report: {
+Group 1:
+
+Summary: ```txt
+This group presents the interests and short positions of directors in the shares of the Company (Want Want China Holdings Limited) as of September 30, 2023. It shows the number of ordinary shares held by each director and their approximate percentage of the issued share capital.
+```
+
+Reconstructed table: ```csv
+Name of Directors,Beneficial interests,Family interests,Interests in controlled corporations,Total,Approximate % of the issued share capital of the Company
+Tsai Eng-Meng,177000000,,6143843100,6320843100,53.2084%
+Tsai Shao-Chung,102594000,,,102594000,0.8636%
+Tsai Wang-Chia,42000,,101300000,101342000,0.8531%
+Huang Yung-Sung,22100,,,22100,0.0002%
+Chu Chi-Wen,197200,,,197200,0.0017%
+Maki Haruo,1100000,200000,,1300000,0.0109%
+Cheng Wen-Hsien,76600,,463086040,463162640,3.8989%
+Tsai Ming-Hui,57200,,,57200,0.0005%
+Lai Hong Yee,8000,,,8000,0.0001%
+```
+
+Notes: ```md
+1. Based on the Company's issued share capital as at 30 September 2023, comprising 11,879,406,135 shares.
+2. The 177,000,000 shares for Tsai Eng-Meng are beneficially owned by his children under the age of 18.
+3. The 6,143,843,100 shares for Tsai Eng-Meng are directly held by Want Power Holdings Limited (3,332,022,400 shares) and Top Quality Group Limited (2,811,820,700 shares), both wholly-owned by Mr. Tsai Eng-Meng.
+4. The 102,594,000 shares for Tsai Shao-Chung are directly held by Twitcher Limited, a company wholly-owned by Mr. Tsai Shao-Chung.
+5. The 101,300,000 shares for Tsai Wang-Chia are directly held by ThemePark Dome Limited, a company wholly-owned by Mr. Tsai Wang-Chia.
+6. The 200,000 shares for Maki Haruo are beneficially owned by Mr. Maki Haruo's spouse.
+7. The 463,086,040 shares for Cheng Wen-Hsien are directly held by Mr Big Capital Limited (163,596,040 shares) and Mr Big Limited (299,490,000 shares). Mr Big Capital Limited is wholly-owned by Mr. Cheng Wen-Hsien. Mr. Cheng is also the controlling shareholder of Mr Big Limited holding 60% of its shares.
+```
+
+Group 2:
+
+Summary: ```txt
+This group shows the interests of one director in an associated corporation of the Company as of September 30, 2023. It presents the number of ordinary shares held and the approximate percentage of the total issued share capital of the associated corporation.
+```
+
+Reconstructed table: ```csv
+Name of Director,Name of the associated corporation,Nature of interests,Number of ordinary shares held,Approximate % of total issued share capital of the associated corporation
+Tsai Shao-Chung,Want Want Holdings Ltd.,Beneficial interests,9665,0.0007%
+```
+
+Notes: ```md
+No additional notes provided for this table.
+```
+I will reconstruct the text into table and notes format as requested, focusing on information related to substantial shareholders' holdings. In this case, there is one relevant group about share repurchases by the company.
+
+Group 1:
+
+Summary: ```txt
+This group summarizes the Company's share repurchases during and after the six-month period ended September 30, 2023. It includes details of repurchases made in April 2023 and October 2023.
+```
+
+Reconstructed table: ```csv
+Month of repurchases,Total number of shares repurchased,Highest price paid per share (HK$),Lowest price paid per share (HK$),Aggregate amount paid (excluding expenses) (HK$)
+April 2023,2677000,5.00,4.99,13383000
+October 2023,14513000,5.06,4.63,70867170
+```
+
+Notes: ```md
+1. The 2,677,000 shares repurchased in April 2023 were cancelled in May 2023.
+2. The 14,513,000 shares repurchased in October 2023 were subsequently cancelled.
+3. As of the interim report date, the number of issued shares of the Company is 11,864,893,135.
+4. The Directors believe these repurchases are in the best interests of the Company and its shareholders and would lead to an enhancement of the earnings per share.
+5. Except for the disclosed share repurchases, neither the Company nor any of its subsidiaries had purchased, sold or redeemed any of the Company's listed securities during the six months ended September 30, 2023, and up to the date of the interim report.
+```
+}

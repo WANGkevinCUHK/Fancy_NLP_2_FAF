@@ -1,0 +1,25 @@
+Based on the provided information, I'll calculate the FAF (freefloat-adjusted factor) for the company:
+
+{
+FAF: 0.4328
+
+FAF (predicted by trend): 0.4328
+
+FAF is calculated by (num_total - num_frozen) / num_total
+
+Explanation:
+Total shares: 11,882,083,135 (as of March 31, 2023)
+
+Non-freely tradable shares:
+1. Tsai Eng-Meng (including Want Power and Top Quality): 6,143,843,100 (51.7068%)
+2. ICCL: 608,434,480 (5.1206%)
+
+Total non-freely tradable shares: 6,752,277,580 (56.8274%)
+
+Freely tradable shares: 11,882,083,135 - 6,752,277,580 = 5,129,805,555
+
+FAF calculation:
+(11,882,083,135 - 6,752,277,580) / 11,882,083,135 = 0.4328 or 43.28%
+
+Note: The FAF prediction remains the same as the current FAF because there's no information indicating a significant change in the shareholding structure in the near future. The reported share repurchases and cancellations (2,677,000 + 14,513,000 = 17,190,000 shares) are relatively small compared to the total number of shares and would not significantly impact the FAF calculation.
+}

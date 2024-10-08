@@ -1,0 +1,138 @@
+Please reconstruct the following text into a standard table and notes format, for table, 
+    please in csv format, for notes, please in remark format, and demonstrate them in sequential use neighbour code 
+    block. Here, you may encounter 2 or more tables, then, see `table + note' as a group. Show different groups in a 
+    sequential. When show a group, before the csv and mark down,you need to use a paragraph of txt to summarize the 
+    table and notation. The format is: 
+    Summary: ```txt
+here is summary
+```
+    Reconstructed table: ```csv
+title,title,title
+A,B,C
+```
+    Notes: ```md
+1. a [Note 1a]
+   b [Note 1b]
+2. [Note 2]
+```
+    Noted that all groups are not necessary. Only groups relating to descriptions of, or changes in, substantial 
+    shareholders' holdings are retained. Shareholders here include descriptions of individuals as well as organizations
+    such as funds.
+    for example, {univ namerankcuh
+k 37 thunote116
+note1 thu don't cons
+ider medicine dept univencodeptrank
+c
+uhknote 119!th
+u5
+note1
+    use dataof cU before 2024}
+    then, need to reconstruct and summarize to:
+    Group 1:
+
+    Summary: ```txt
+ this is table group 1, about university total rank ```
+    Reconstructed format: ```csv
+univ name, rank
+cuhk, 37
+thu, 16```
+    Notes:```1. thu don't consider medicine dept```
+    Group2:
+
+    Summary: ```txt
+ this is table group 2, about university economics department rank ```
+    Reconstructed format: ```csv
+univ name, rank
+cuhk, 19
+thu, 5```
+    Notes:```1. use data of cu before 2024 ```
+    Those Groups are not retained because they are not related to shareholder of any company. For groups related to share,
+    outputting streamlined language without loss of precision
+    
+Now the content you need to extract is: {
+Purchase, Sale or Redemption of the Bank’s Listed Securities 
+There was no purchase, sale or redemption by the Bank, or any of its subsidiaries, of the 
+Bank’s listed securities during the first half of 2023.  
+Remuneration and Staff Development  
+There have been no material changes to the information disclosed in the Annual Report 2022 
+in respect of the remuneration of employees, remuneration policies and staff development. 
+Corporate Governance Principles and Practices  
+The Bank is committed to maintaining and upholding high standards of corporate governance 
+with a view to safeguarding the interests of shareholders, customers, employees and other 
+stakeholders. The Bank has followed the module on ‘Corporate Governance of Locally 
+Incorporated Authorised Institutions’ under the Supervisory Policy Manual issued by the 
+Hong Kong Monetary Authority. The Bank has also fully complied with all the principles of 
+good corporate governance, code provisions and most of the recommended best practices set 
+out in the Corporate Governance Code contained in Appendix 14 of the Listing Rules 
+throughout the six months ended 30 June 2023.  
+Further, to ensure that it is in line with international and local corporate governance best 
+practices, the Bank constantly reviews and enhances its corporate governance framework by 
+making reference to market trend as well as guidelines and requirements issued by regulatory 
+authorities. Throughout the first six months of 2023, the Bank has also implemented various 
+Group governance initiatives to streamline parent/subsidiary oversight framework, and 
+enhance meeting efficiency and reporting quality. 
+The Audit Committee of the Bank has reviewed the results of the Bank for the six months 
+ended 30 June 2023. 
+2023 Second Interim Dividend 
+Announcement date 1 August 2023 
+Ex-dividend date 14 August 2023 
+Book close and record date 16 August 2023 
+Payment date 5 September 2023 
+Register of Shareholders  
+The Register of Shareholders of the Bank will be closed on Wednesday, 16 August 2023, 
+during which no transfer of shares can be registered. To qualify for the second interim 
+dividend for 2023, all transfers, accompanied by the relevant share certificates, must be 
+lodged with the Bank’s Registrar, Computershare Hong Kong Investor Services Limited, at 
+Shops 1712-1716, 17th Floor, Hopewell Centre, 183 Queen’s Road East, Wanchai, Hong 
+Kong, for registration not later than 4:30 pm on Tuesday, 15 August 2023.  
+112
+%**page113**%
+
+Board and Committees  
+Board 
+Independent Non-executive Chairman 
+Irene LEE Yun Lien  
+Executive Directors 
+Diana Ferreira CESAR (Chief Executive) 
+SAW Say Pin 
+Non-executive Directors 
+Kathleen GAN Chieh Huey  
+David LIAO Yi Chien 
+Independent Non-executive Directors 
+Cordelia CHUNG 
+Clement KWOK King Man  
+Patricia LAM Sze Wan 
+LIN Huey Ru  
+Kenneth NG Sing Yip 
+WANG Xiao Bin
+Committees 
+Executive Committee 
+Diana Ferreira CESAR (Chairman) 
+Jordan CHEUNG Wang Chun 
+Kathy CHEUNG Ka Wai 
+Maggie CHEUNG Ka Ki 
+Vivien CHIU Wai Man 
+Rose CHO Mui 
+Liz CHOW Tan Ling 
+Gloria HO Lok Sze 
+Donald LAM Yin Shing 
+Betty LAW Shuk Man 
+Gilbert LEE Man Lung 
+Rannie LEE Wah Lun 
+Godwin LI Chi Chung 
+SAW Say Pin 
+Ryan SONG Yue Sheng 
+Shelley ZHOU Wenwen 
+Audit Committee 
+Clement KWOK King Man (Chairman) 
+Irene LEE Yun Lien 
+WANG Xiao Bin 
+Remuneration Committee 
+Cordelia CHUNG (Chairman) 
+Patricia LAM Sze Wan 
+Irene LEE Yun Lien 
+113
+%**page114**%
+
+
+}

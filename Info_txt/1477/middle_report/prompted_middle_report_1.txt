@@ -1,0 +1,142 @@
+Please reconstruct the following text into a standard table and notes format, for table, 
+    please in csv format, for notes, please in remark format, and demonstrate them in sequential use neighbour code 
+    block. Here, you may encounter 2 or more tables, then, see `table + note' as a group. Show different groups in a 
+    sequential. When show a group, before the csv and mark down,you need to use a paragraph of txt to summarize the 
+    table and notation. The format is: 
+    Summary: ```txt
+here is summary
+```
+    Reconstructed table: ```csv
+title,title,title
+A,B,C
+```
+    Notes: ```md
+1. a [Note 1a]
+   b [Note 1b]
+2. [Note 2]
+```
+    Noted that all groups are not necessary. Only groups relating to descriptions of, or changes in, substantial 
+    shareholders' holdings are retained. Shareholders here include descriptions of individuals as well as organizations
+    such as funds.
+    for example, {univ namerankcuh
+k 37 thunote116
+note1 thu don't cons
+ider medicine dept univencodeptrank
+c
+uhknote 119!th
+u5
+note1
+    use dataof cU before 2024}
+    then, need to reconstruct and summarize to:
+    Group 1:
+    prompt txt: ```txt
+ this is table group 1, about university total rank ```
+    Reconstructed format: ```csv
+univ name, rank
+cuhk, 37
+thu, 16```
+    Notes:```1. thu don't consider medicine dept```
+    Group2:
+    prompt txt: ```txt
+ this is table group 2, about university economics department rank ```
+    Reconstructed format: ```csv
+univ name, rank
+cuhk, 19
+thu, 5```
+    Notes:```1. use data of cu before 2024 ```
+    Those Groups are not retained because they are not related to shareholder of any company. For groups related to share,
+    outputting streamlined language without loss of precision
+    
+Now the content you need to extract is: {
+INTERIM REPORT 202319
+Other InformationSUBSTANTIAL SHAREHOLDERS ’ INTERESTS AND SHORT POSITIONS IN SHARES AND 
+UNDERLYING SHARES OF THE COMPANY
+As of June 30, 2023, so far as the Directors are aware, the following persons (other than the Directors or 
+chief executive of the Company) had or were deemed or taken to have interests or short positions in the 
+Shares or underlying Shares of the Company which would fall to be disclosed to the Company and the Stock 
+Exchange under the provision of Divisions 2 and 3 of Part XV of the SFO or which were recorded in the 
+register required to be kept by the Company pursuant to Section 336 of the SFO:
+Long positions in the Shares or underlying Shares of the Company
+Name of shareholder Nature of interestTotal number 
+of Shares/
+underlying 
+sharesApproximate 
+percentage in 
+shareholding(8)
+6 Dimensions Capital (Note 1) Beneficial interest 119,890,000 17.36%
+6 Dimensions Affiliates (Note 1) Beneficial interest 6,310,000 0.91%
+6 Dimensions Capital GP, LLC (Note 1) Interest in controlled corporation 126,200,000 18.27%
+Suzhou Frontline II (Note 2) Beneficial interest 88,340,000 12.79%
+Suzhou Fuyan Venture Capital Management Partnership 
+ (Limited Partnership) ( ᘽψబض௴ุҳ༟၍ଣΥྫΆุ
+ (ϞࠢΥྫ )) (Note 2)Interest in controlled corporation 88,340,000 12.79%
+Suzhou 6 Dimensions (Note 2) Beneficial interest 37,860,000 5.48%
+Suzhou Tongyu Investment Management Partnership 
+ (Limited Partnership) ( ᘽψஷ๎ҳ༟၍ଣΥྫΆุ
+ (ϞࠢΥྫ )) (Note 2)Interest in controlled corporation 37,860,000 5.48%
+Suzhou Yunchang Investment Consulting Co., Ltd. 
+ (ᘽψᘾڗҳ༟ፔ༔Ϟࠢʮ̡ ) (Note 2)Interest in controlled corporation 126,200,000 18.27%
+Ziqing CHEN ( ௓૔ࡠ( ) Note 2) Interest in controlled corporation 126,200,000 18.27%
+Summer Iris Limited (Note 3) Beneficial interest 78,214,230 11.32%
+Boyu Capital Fund IV, L.P. (Note 3) Interest in controlled corporation 78,214,230 11.32%
+Boyu Capital General Partner IV, Ltd. (Note 3) Interest in controlled corporation 78,214,230 11.32%
+Boyu Capital Group Holdings Ltd. (Note 3) (Note 4) Interest in controlled corporation 81,629,730 11.82%
+TLS Beta Pte. Ltd. (Note 5) Beneficial interest 54,169,400 7.84%
+Temasek Life Sciences Private Limited (Note 5) Interest in controlled corporation 54,169,400 7.84%
+Fullerton Management Pte Ltd (Note 5) Interest in controlled corporation 54,169,400 7.84%
+Temasek Holdings (Private) Limited (Note 5) (Note 6) Interest in controlled corporation 59,446,400 8.61%
+Capital Research and Management Company  (Note 7) Beneficial interest 47,735,966 6.91%
+The Capital Group Companies, Inc. (Note  7) Interest in controlled corporation 47,735,966 6.91%
+    
+%**page19**%
+
+OCUMENSION THERAPEUTICS20
+Other InformationNotes:
+(1) For the purpose of the SFO, 6 Dimensions Capital GP, LLC, as the general partner of each of 6 Dimensions Capital and 6 Dimensions 
+Affiliates, is deemed to have an interest in the Shares held by each of 6 Dimensions Capital and 6 Dimensions Affiliates.
+(2) Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership) ( ᘽψబض௴ุҳ༟၍ଣΥྫΆุ (ϞࠢΥྫ )) is the general 
+partner of Suzhou Frontline II. Suzhou Tongyu Investment Management Partnership (Limited Partnership) ( ᘽψஷ๎ҳ༟၍ଣΥྫΆุ (Ϟࠢ
+Υྫ )) is the general partner of Suzhou 6 Dimensions. Suzhou Yunchang Investment Consulting Co., Ltd. ( ᘽψᘾڗҳ༟ፔ༔Ϟࠢʮ̡ ) is 
+the general partner of each of Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership) ( ᘽψబض௴ุҳ༟၍ଣΥྫΆ
+ุ(ϞࠢΥྫ )) and Suzhou Tongyu Investment Management Partnership (Limited Partnership) ( ᘽψஷ๎ҳ༟၍ଣΥྫΆุ (ϞࠢΥྫ )), and 
+is wholly held by Ziqing CHEN ( ௓૔ࡠ .) Ziqing CHEN ( ௓૔ࡠ ) is the father-in-law of Dr. Lian Yong CHEN, the Chairman and non-executive 
+Director of our Company.
+For the purpose of the SFO, (i) Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership) ( ᘽψబض௴ุҳ༟၍ଣΥ
+ྫΆุ (ϞࠢΥྫ )) is deemed to have an interest in the Shares held by Suzhou Frontline II; (ii) Suzhou Tongyu Investment Management 
+Partnership (Limited Partnership) ( ᘽψஷ๎ҳ༟၍ଣΥྫΆุ (ϞࠢΥྫ )) is deemed to have an interest in the Shares held by Suzhou 6 
+Dimensions; and (iii) Ziqing CHEN ( ௓૔ࡠ ) and Suzhou Yunchang Investment Consulting Co., Ltd. ( ᘽψᘾڗҳ༟ፔ༔Ϟࠢʮ̡ ) are deemed 
+to have an interest in the Shares held by each of Suzhou Frontline II and Suzhou 6 Dimensions.
+(3) For the purpose of the SFO, each of Boyu Capital Fund IV, L.P. (as the sole shareholder of Summer Iris Limited), Boyu Capital General 
+Partner IV, Ltd. (as the general partner of Boyu Capital Fund IV, L.P.) and Boyu Capital Group Holdings Ltd. (as the sole shareholder of 
+Boyu Capital General Partner IV, Ltd.) is deemed to have an interest in the 78,214,230 Shares held by Summer Iris Limited.
+(4) For the purpose of the SFO, Boyu Capital Group Holdings Ltd. is deemed to have an interest in the 3,415,500 Shares held by Boyu Capital 
+Opportunities Master Fund, as Boyu Capital Opportunities Master Fund is managed by Boyu Capital Investment Management Limited, 
+which in turn is ultimately controlled by Boyu Capital Group Holdings Ltd.
+(5) TLS Beta Pte. Ltd. is a wholly-owned subsidiary of Temasek Life Sciences Private Limited, which is in turn a wholly-owned subsidiary of 
+Fullerton Management Pte Ltd, which is in turn a wholly-owned subsidiary of Temasek Holdings (Private) Limited. Under the SFO, Temasek 
+Life Sciences Private Limited, Fullerton Management Pte Ltd and Temasek Holdings (Private) Limited are deemed to be interested in the 
+54,169,400 Shares held by TLS Beta Pte. Ltd.
+(6) For the purpose of the SFO, Temasek Holdings (Private) Limited is deemed to have an interest in the 5,277,000 Shares held by Aranda 
+Investments Pte. Ltd., which in turn is ultimately controlled by Temasek Holdings (Private) Limited.
+(7) Capital Research and Management Company is a wholly-owned subsidiary of The Capital Group Companies, Inc. For the purpose of 
+the SFO, The Capital Group Companies, Inc. is deemed to have an interest in the 47,735,966 Shares held by Capital Research and 
+Management Company.
+(8) The calculation is based on the total number of 690,711,280 Shares in issue as of June 30, 2023.
+Save as disclosed above, as of June 30, 2023, the Company has not been notified of any other relevant 
+interests or short positions in the issued share capital of the Company, other than the Directors and chief 
+executive  of the Company,  which  would  fall to be disclosed  to the Company  under  the provisions  of 
+Divisions 2 and 3 of Part XV of the SFO, or which were recorded in the register required to be kept by the 
+Company under Section 336 of the SFO.
+SHARE SCHEMES
+During the period ended June 30, 2023 and up to the date of this interim report, we have four share 
+schemes in effect which were required to be disclosed under the requirements of Chapter 17 of the Listing 
+Rules.
+Employee Stock Option Plan
+The ESOP was adopted by the Company on May 23, 2018 and amended from time to time. Subject to the 
+terms of the ESOP, the Board may at its discretion specify any conditions which must satisfied before the 
+option(s) under the ESOP may be exercised.  Further details of the ESOP are set out in the Prospectus and our 
+2022 annual report.
+%**page20**%
+
+
+}

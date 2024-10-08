@@ -1,0 +1,127 @@
+Please reconstruct the following text into a standard table and notes format, for table, 
+    please in csv format, for notes, please in remark format, and demonstrate them in sequential use neighbour code 
+    block. Here, you may encounter 2 or more tables, then, see `table + note' as a group. Show different groups in a 
+    sequential. When show a group, before the csv and mark down,you need to use a paragraph of txt to summarize the 
+    table and notation. The format is: 
+    Summary: ```txt
+here is summary
+```
+    Reconstructed table: ```csv
+title,title,title
+A,B,C
+```
+    Notes: ```md
+1. a [Note 1a]
+   b [Note 1b]
+2. [Note 2]
+```
+    Noted that all groups are not necessary. Only groups relating to descriptions of, or changes in, substantial 
+    shareholders' holdings are retained. Shareholders here include descriptions of individuals as well as organizations
+    such as funds.
+    for example, {univ namerankcuh
+k 37 thunote116
+note1 thu don't cons
+ider medicine dept univencodeptrank
+c
+uhknote 119!th
+u5
+note1
+    use dataof cU before 2024}
+    then, need to reconstruct and summarize to:
+    Group 1:
+
+    Summary: ```txt
+ this is table group 1, about university total rank ```
+    Reconstructed format: ```csv
+univ name, rank
+cuhk, 37
+thu, 16```
+    Notes:```1. thu don't consider medicine dept```
+    Group2:
+
+    Summary: ```txt
+ this is table group 2, about university economics department rank ```
+    Reconstructed format: ```csv
+univ name, rank
+cuhk, 19
+thu, 5```
+    Notes:```1. use data of cu before 2024 ```
+    Those Groups are not retained because they are not related to shareholder of any company. For groups related to share,
+    outputting streamlined language without loss of precision
+    
+Now the content you need to extract is: {
+ANNUAL REPORT
+年 報 董事會報告
+2022/2023 Report of the Directors
+INTERESTS AND SHORT POSITIONS OF SUBSTANTIAL 根據證券及期貨條例主要股東須予披露
+SHAREHOLDERS DISCLOSABLE UNDER THE SFO 之權益及淡倉（續）
+(continued)
+Interest in the Company (long position) (continued) 於本公司的權益（好倉（）續）
+Note: 附註：
+(1) Based on the Company’s issued share capital as at 31 March 2023, comprising (1) 根據本公司於2023年3月31日之已發行股
+11,882,083,135 shares. 本，包括11,882,083,135股股份。
+(2) The shares held by Want Power and Top Quality were beneficially owned by (2) 上述Want Power及Top Quality所持有的
+Mr. Tsai Eng-Meng and are the same shares disclosed as Mr. Tsai Eng-Meng’s 股份均由蔡衍明先生實益擁有，而該等股
+interests in controlled corporations as set out under the heading “Directors’ and 份為上文「董事及最高行政人員於本公司
+chief executive’s interests and short positions in shares, underlying shares and 及其相聯法團之股份、相關股份及債券之
+debentures of the Company and its associated corporation” above. 權益及淡倉」一段蔡衍明先生所披露之受
+控制公司權益所載之相同股份。
+Save as disclosed above, as at 31 March 2023, the Company has not been 除上文所披露者外，於2023年3月31日，概
+notified by any persons (other than Directors and the chief executive of the 無任何人士（本公司董事或最高行政人員除
+Company) who had interests or short positions in the shares or underlying 外）曾知會本公司擁有根據證券及期貨條例
+shares of the Company which requires disclosure to the Company under 第XV部須向本公司披露或根據證券及期貨
+the provisions of Part XV of the SFO, or which were recorded in the register 條例第336條須存置於本公司之登記冊中的
+required to be kept under section 336 of the SFO. 本公司股份或相關股份之權益或淡倉。
+DIRECTORS’ MATERIAL INTERESTS IN TRANSACTIONS, 董事於與本集團業務有關之重要交易、
+ARRANGEMENTS AND CONTRACTS OF SIGNIFICANCE 安排或合約之重大利益
+IN RELATION TO THE GROUP’S BUSINESS
+No transactions, arrangements and contracts of significance in relation to 於截至2023年3月31日止年度終結日或截至
+the Group’s business to which the Company or any of its subsidiaries was 2023年3月31日止年度任何時間，概無由本
+a party or were parties and in which a Director or an entity connected with 公司或其任何附屬公司作為協議方、且本
+a Director had a material interest, whether directly or indirectly, subsisted 公司董事或與該董事有關聯的實體直接或
+at the end of the year ended 31 March 2023 or at any time during the year 間接於其中擁有重大利益，而與本集團業
+ended 31 March 2023. 務有關之重要交易、安排或合約。
+MANAGEMENT CONTRACTS 管理合約
+No contracts concerning the management and administration of the whole 於截至2023年3月31日止年度，概無訂立或
+or any substantial part of the business of the Company were entered into or 存在有關本公司全部或任何重大部份業務
+existed during the year ended 31 March 2023. 的管理及行政合約。
+94
+%**page95**%
+
+ANNUAL REPORT
+董事會報告 年 報
+Report of the Directors 2022/2023
+CONNECTED TRANSACTIONS AND CONTINUING 關連交易及持續關連交易
+CONNECTED TRANSACTIONS
+Continuing connected transactions 持續關連交易
+The Company had the following non-exempt continuing connected 本公司於截至2023年3月31日止財政年度進
+transactions conducted in the financial year ended 31 March 2023. 行以下非豁免持續關連交易。
+Water God (水神) Framework Agreement 水神框架協議
+On 30 November 2021, the Company and San Want (together with its 本公司與神旺（連同其附屬公司，統稱「神
+subsidiaries, the “San Want Group”) entered into a framework agreement 旺集團」）於2021年11月30日訂立一份框架
+(“Water God Framework Agreement”), pursuant to which (i) the Group 協議（「水神框架協議」），據此，自2021年
+agreed to produce and sell to San Want Group in respect of certain “Water 4月1日起至2023年3月31日止為期兩年期
+God (水神)” branded antiseptic and sanitising products (“Products”) (“Product 間，(i)本集團同意就若干「水神」品牌除菌
+Processing and Sale Transaction”), and (ii) San Want Group agreed to sell, 及消毒產品（「產品」）進行生產並銷售給神
+and the Group agreed to purchase, the Products from San Want Group for 旺集團（「產品生產及銷售交易」），及(ii)神
+onward sales and distributions (“Product Purchase Transaction”) for a term 旺集團同意向本集團出售及本集團同意向
+of two years from 1 April 2021 to 31 March 2023. 神旺集團購買產品，以供進行銷售和分銷
+（「產品購買交易」）。
+The principal terms of the Water God Framework Agreement are set out 水神框架協議的主要條款載列如下：
+below:
+Date of agreement 協議日期
+30 November 2021 2021年11月30日
+Parties 協議方
+(1) The Company (1) 本公司
+(2) San Want (2) 神旺
+Members of the Group and subsidiaries of San Want may enter into 本集團的成員公司與神旺的附屬公司可根
+separate agreement(s)/purchase orders which set out the quantity, date and 據水神框架協議另行訂立列明數量、交付
+place of delivery and other terms pursuant to the Water God Framework 日期和地點及其他條款的協議╱購買訂
+Agreement. 單。
+Term 期限
+1 April 2021 to 31 March 2023 2021年4月1日至2023年3月31日
+95
+%**page96**%
+
+
+}

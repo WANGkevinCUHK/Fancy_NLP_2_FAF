@@ -1,0 +1,5 @@
+{
+FAF: 0.3786
+FAF(predicted by trend): 0.3786
+FAF is calculated by (numtotal-numfrozen)/numtotal = (1912456700-1188057371)/1912456700 = 0.3786
+}

@@ -1,0 +1,46 @@
+Group 1:
+
+Summary: ```txt
+This table shows the long positions in shares or underlying shares of the company held by substantial shareholders as of June 30, 2023. It includes the names of shareholders, nature of interest, total number of shares/underlying shares, and approximate percentage in shareholding.
+```
+
+Reconstructed table: ```csv
+Name of shareholder,Nature of interest,Total number of Shares/underlying shares,Approximate percentage in shareholding
+6 Dimensions Capital,Beneficial interest,119890000,17.36%
+6 Dimensions Affiliates,Beneficial interest,6310000,0.91%
+6 Dimensions Capital GP LLC,Interest in controlled corporation,126200000,18.27%
+Suzhou Frontline II,Beneficial interest,88340000,12.79%
+Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership),Interest in controlled corporation,88340000,12.79%
+Suzhou 6 Dimensions,Beneficial interest,37860000,5.48%
+Suzhou Tongyu Investment Management Partnership (Limited Partnership),Interest in controlled corporation,37860000,5.48%
+Suzhou Yunchang Investment Consulting Co. Ltd.,Interest in controlled corporation,126200000,18.27%
+Ziqing CHEN,Interest in controlled corporation,126200000,18.27%
+Summer Iris Limited,Beneficial interest,78214230,11.32%
+Boyu Capital Fund IV L.P.,Interest in controlled corporation,78214230,11.32%
+Boyu Capital General Partner IV Ltd.,Interest in controlled corporation,78214230,11.32%
+Boyu Capital Group Holdings Ltd.,Interest in controlled corporation,81629730,11.82%
+TLS Beta Pte. Ltd.,Beneficial interest,54169400,7.84%
+Temasek Life Sciences Private Limited,Interest in controlled corporation,54169400,7.84%
+Fullerton Management Pte Ltd,Interest in controlled corporation,54169400,7.84%
+Temasek Holdings (Private) Limited,Interest in controlled corporation,59446400,8.61%
+Capital Research and Management Company,Beneficial interest,47735966,6.91%
+The Capital Group Companies Inc.,Interest in controlled corporation,47735966,6.91%
+```
+
+Notes: ```md
+1. The calculation is based on the total number of 690,711,280 Shares in issue as of June 30, 2023.
+
+2. 6 Dimensions Capital GP, LLC, as the general partner of each of 6 Dimensions Capital and 6 Dimensions Affiliates, is deemed to have an interest in the Shares held by each of 6 Dimensions Capital and 6 Dimensions Affiliates.
+
+3. Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership) is the general partner of Suzhou Frontline II. Suzhou Tongyu Investment Management Partnership (Limited Partnership) is the general partner of Suzhou 6 Dimensions. Suzhou Yunchang Investment Consulting Co., Ltd. is the general partner of each of Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership) and Suzhou Tongyu Investment Management Partnership (Limited Partnership), and is wholly held by Ziqing CHEN. Ziqing CHEN is the father-in-law of Dr. Lian Yong CHEN, the Chairman and non-executive Director of the Company.
+
+4. Boyu Capital Fund IV, L.P. (as the sole shareholder of Summer Iris Limited), Boyu Capital General Partner IV, Ltd. (as the general partner of Boyu Capital Fund IV, L.P.) and Boyu Capital Group Holdings Ltd. (as the sole shareholder of Boyu Capital General Partner IV, Ltd.) are deemed to have an interest in the 78,214,230 Shares held by Summer Iris Limited.
+
+5. Boyu Capital Group Holdings Ltd. is deemed to have an interest in the 3,415,500 Shares held by Boyu Capital Opportunities Master Fund, as Boyu Capital Opportunities Master Fund is managed by Boyu Capital Investment Management Limited, which in turn is ultimately controlled by Boyu Capital Group Holdings Ltd.
+
+6. TLS Beta Pte. Ltd. is a wholly-owned subsidiary of Temasek Life Sciences Private Limited, which is in turn a wholly-owned subsidiary of Fullerton Management Pte Ltd, which is in turn a wholly-owned subsidiary of Temasek Holdings (Private) Limited. Under the SFO, Temasek Life Sciences Private Limited, Fullerton Management Pte Ltd and Temasek Holdings (Private) Limited are deemed to be interested in the 54,169,400 Shares held by TLS Beta Pte. Ltd.
+
+7. Temasek Holdings (Private) Limited is deemed to have an interest in the 5,277,000 Shares held by Aranda Investments Pte. Ltd., which in turn is ultimately controlled by Temasek Holdings (Private) Limited.
+
+8. Capital Research and Management Company is a wholly-owned subsidiary of The Capital Group Companies, Inc. The Capital Group Companies, Inc. is deemed to have an interest in the 47,735,966 Shares held by Capital Research and Management Company.
+```

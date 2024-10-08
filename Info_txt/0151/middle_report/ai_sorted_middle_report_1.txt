@@ -1,0 +1,43 @@
+Group 1:
+
+Summary: ```txt
+This group presents the interests and short positions of directors in the shares of the Company (Want Want China Holdings Limited) as of September 30, 2023. It shows the number of ordinary shares held by each director and their approximate percentage of the issued share capital.
+```
+
+Reconstructed table: ```csv
+Name of Directors,Beneficial interests,Family interests,Interests in controlled corporations,Total,Approximate % of the issued share capital of the Company
+Tsai Eng-Meng,177000000,,6143843100,6320843100,53.2084%
+Tsai Shao-Chung,102594000,,,102594000,0.8636%
+Tsai Wang-Chia,42000,,101300000,101342000,0.8531%
+Huang Yung-Sung,22100,,,22100,0.0002%
+Chu Chi-Wen,197200,,,197200,0.0017%
+Maki Haruo,1100000,200000,,1300000,0.0109%
+Cheng Wen-Hsien,76600,,463086040,463162640,3.8989%
+Tsai Ming-Hui,57200,,,57200,0.0005%
+Lai Hong Yee,8000,,,8000,0.0001%
+```
+
+Notes: ```md
+1. Based on the Company's issued share capital as at 30 September 2023, comprising 11,879,406,135 shares.
+2. The 177,000,000 shares for Tsai Eng-Meng are beneficially owned by his children under the age of 18.
+3. The 6,143,843,100 shares for Tsai Eng-Meng are directly held by Want Power Holdings Limited (3,332,022,400 shares) and Top Quality Group Limited (2,811,820,700 shares), both wholly-owned by Mr. Tsai Eng-Meng.
+4. The 102,594,000 shares for Tsai Shao-Chung are directly held by Twitcher Limited, a company wholly-owned by Mr. Tsai Shao-Chung.
+5. The 101,300,000 shares for Tsai Wang-Chia are directly held by ThemePark Dome Limited, a company wholly-owned by Mr. Tsai Wang-Chia.
+6. The 200,000 shares for Maki Haruo are beneficially owned by Mr. Maki Haruo's spouse.
+7. The 463,086,040 shares for Cheng Wen-Hsien are directly held by Mr Big Capital Limited (163,596,040 shares) and Mr Big Limited (299,490,000 shares). Mr Big Capital Limited is wholly-owned by Mr. Cheng Wen-Hsien. Mr. Cheng is also the controlling shareholder of Mr Big Limited holding 60% of its shares.
+```
+
+Group 2:
+
+Summary: ```txt
+This group shows the interests of one director in an associated corporation of the Company as of September 30, 2023. It presents the number of ordinary shares held and the approximate percentage of the total issued share capital of the associated corporation.
+```
+
+Reconstructed table: ```csv
+Name of Director,Name of the associated corporation,Nature of interests,Number of ordinary shares held,Approximate % of total issued share capital of the associated corporation
+Tsai Shao-Chung,Want Want Holdings Ltd.,Beneficial interests,9665,0.0007%
+```
+
+Notes: ```md
+No additional notes provided for this table.
+```

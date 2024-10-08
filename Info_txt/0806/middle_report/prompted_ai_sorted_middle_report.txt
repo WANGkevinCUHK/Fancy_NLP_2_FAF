@@ -1,0 +1,144 @@
+" We are trying to trace the a company's shareholding structure and its changes, 
+we have a txt file recording such information, any ``Group`` information is a description of company's shareholding 
+structure or its changes consist of 3 parts, summary, main csv table, notation, where summary explain what the 
+``Group`` do. main csv table is the record the current shareholding structure or the change of the current 
+shareholding structure. The notation is an explanation of some entries in the main CSV table, to help us understand 
+the true shareholding structure of the company, which may have: (1) Notation of a person to say he control a company 
+in the CSV table (2) Notation of a company to indicate it holds shares through its subsidiaries (3) Notation to 
+clarify cross-shareholding relationships between companies (4) Notation to explain indirect shareholding through 
+multiple layers of companies (5) Notation to explain complex financial instruments that may convert to shares{We 
+don't care about the difference between the different shares, we only care about shares end up in the hands of what 
+company or whoever.}. Ultimately, you need to construct a txt file consist of entities, overview and message, 
+where entities is a summary of person or company we mention in the input file in the order of equity/share percentage, we care about the shares in his hands,
+overview is a overview of the share hold structure at this time, in the order of equity/share percentage. Message is change of share hold structure at this 
+time. If we do not overview, then we need message, otherwise, if we do have overview now, we only need a little important 
+message. Here, because our content is a combination of two files, it is possible that the same table separated 
+into two groups, so you can consider the corresponding two groups merged together. Here is the format: Time:{2023.6 
+if it is a middle report, 2022.12 if it is a annual report, otherwise it will be specified} Entities: ```txt
+ A [
+actual controller, control B company ]
+ B[intermediate controller`]``
+ Overview ```csv
+Entity, share number, 
+per at now
+A, 10000, 10%``` Message ```txt
+A sell 5% of share (through reduce holdings by B)``` here is a real 
+world example: { Group 1: Summary: ```txt This table shows the long positions in shares or underlying shares of the 
+company held by substantial shareholders as of June 30, 2023. ``` Reconstructed table: ```csv Name of shareholder,
+Nature of interest,Total number of Shares/underlying shares,Approximate percentage in shareholding 6 Dimensions 
+Capital,Beneficial interest,119890000,17.36% 6 Dimensions Affiliates,Beneficial interest,6310000,0.91% 6 Dimensions 
+Capital GP LLC,Interest in controlled corporation,126200000,18.27% Suzhou Frontline II,Beneficial interest,88340000,
+12.79% Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership),Interest in controlled corporation,
+88340000,12.79% Suzhou 6 Dimensions,Beneficial interest,37860000,5.48% Suzhou Tongyu Investment Management 
+Partnership (Limited Partnership),Interest in controlled corporation,37860000,5.48% Suzhou Yunchang Investment 
+Consulting Co. Ltd.,Interest in controlled corporation,126200000,18.27% Ziqing CHEN,Interest in controlled 
+corporation,126200000,18.27% Summer Iris Limited,Beneficial interest,78214230,11.32% Boyu Capital Fund IV L.P.,
+Interest in controlled corporation,78214230,11.32% Boyu Capital General Partner IV Ltd.,Interest in controlled 
+corporation,78214230,11.32% Boyu Capital Group Holdings Ltd.,Interest in controlled corporation,81629730,11.82% TLS 
+Beta Pte. Ltd.,Beneficial interest,54169400,7.84% Temasek Life Sciences Private Limited,Interest in controlled 
+corporation,54169400,7.84% Fullerton Management Pte Ltd,Interest in controlled corporation,54169400,7.84% Temasek 
+Holdings (Private) Limited,Interest in controlled corporation,59446400,8.61% Capital Research and Management Company,
+Beneficial interest,47735966,6.91% The Capital Group Companies Inc.,Interest in controlled corporation,47735966,
+6.91% ```Notes: ```md 1. The calculation is based on the total number of 690,711,280 Shares in issue as of June 30, 
+2023. 2. 6 Dimensions Capital GP, LLC, as the general partner of each of 6 Dimensions Capital and 6 Dimensions 
+Affiliates, is deemed to have an interest in the Shares held by each of 6 Dimensions Capital and 6 Dimensions 
+Affiliates. 3. Suzhou Fuyan Venture Capital Management Partnership (Limited Partnership) is the general partner of 
+Suzhou Frontline II… 4. Boyu Capital Fund IV, L.P. (as the sole shareholder of Summer Iris Limited), Boyu Capital 
+General Partner IV, Ltd. (as the general partner of Boyu Capital Fund IV, L.P.) … 5. Boyu Capital Group Holdings Ltd. 
+is deemed to have an interest in the 3,415,500 Shares held … 6. TLS Beta Pte. Ltd. is a wholly-owned subsidiary of 
+Temasek Life Sciences Private Limited, which is in turn a wholly-owned subsidiary of Fullerton Management Pte Ltd, 
+which is in turn a wholly-owned subsidiary of Temasek Holdings (Private) Limited. Under the SFO, Temasek Life 
+Sciences Private Limited, Fullerton Management Pte Ltd and Temasek Holdings (Private) Limited are deemed to be 
+interested in the 54,169,400 Shares held by TLS Beta Pte. Ltd. 7. Temasek Holdings (Private) Limited is deemed to 
+have an interest in the 5,277,000 Shares held by Aranda Investments Pte. Ltd., which in turn is ultimately controlled 
+by Temasek Holdings (Private) Limited. 8. Capital Research and Management Company is a wholly-owned subsidiary of The 
+Capital Group Companies, Inc. The Capital Group Companies, Inc. is deemed to have an interest in the 47,735,
+966 Shares held by Capital Research and Management Company. ```} The output is:{ Time:{2023.6} Entities: ```txt
+ [1] 
+6 Dimensions [actual controller by 6 Dimensions Capital and 6 Dimensions affiliates] [2] Suzhou and Ziqing Chen  [
+actually controller by Suzhou Fuyan and Suzhou yunchang and Suzhou Tongyu]… Overview:```csv
+ Entities, share number, 
+per of share
+ 6 dimension, 12620000, 18.26%
+....``` Message:```txt
+```}
+Now the content you need to process is a middle_report: {
+I will reconstruct the text into table and notes format as requested, focusing on the sections related to substantial shareholders' holdings.
+
+Group 1:
+
+Summary: ```txt
+This group describes the changes in the Company's issued equity, including the number of shares, share capital, share premium, and reorganization reserve for the periods ended 31 December 2022 and 30 June 2023.
+```
+
+Reconstructed table: ```csv
+Date,Number of shares,Share capital (HK$'000),Share premium (HK$'000),Reorganization reserve (HK$'000),Total issued equity (HK$'000)
+1 January 2022,1849982831,184998,2066893,-866813,1385078
+31 December 2022,1826709831,182671,2010974,-866813,1326832
+30 June 2023,1826709831,182671,2010974,-866813,1326832
+```
+
+Notes: ```md
+1. As at 30 June 2023, the total authorized number of ordinary shares of the Company was 5,000,000,000 shares with a par value of HK$0.1 per share and all issued shares were fully paid.
+
+2. The ordinary shares are non-redeemable and are entitled to dividends. Each ordinary share carries one vote.
+
+3. During the period ended 30 June 2023, there were no repurchase of the Company's shares.
+
+4. During the period ended 30 June 2022, the Company purchased a total of 12,433,000 shares on the Stock Exchange and the aggregate consideration paid was HK$37,591,000. As at 30 June 2022, the purchased 12,433,000 shares were cancelled.
+```
+
+Group 2:
+
+Summary: ```txt
+This group provides information about the Company's share option scheme, including the number of outstanding options and their exercise prices as of 31 December 2022 and 30 June 2023.
+```
+
+Reconstructed table: ```csv
+Date,Average exercise price (HK$ per share),Number of options ('000)
+1 January 2022,4.65,92309
+31 December 2022,4.55,97959
+30 June 2023,4.55,97959
+```
+
+Notes: ```md
+1. Out of the 97,959,000 outstanding share options, 54,604,500 options were exercisable as at 30 June 2023 with weighted average exercise price of HK$4.89.
+
+2. No options were exercised during the six months ended 30 June 2023.
+
+3. Share options outstanding have the following expiry dates and exercise prices:
+   - 14 April 2025: 20,500,000 options at HK$5.87 per share
+   - 22 August 2026: 60,209,000 options at HK$4.14 per share
+   - 11 December 2026: 8,000,000 options at HK$5.55 per share
+   - 10 March 2027: 9,250,000 options at HK$3.47 per share
+
+4. The measurement dates of the share options were 11 March 2022, 12 March 2021, 23 November 2020, 15 October 2018 and 31 May 2012, being the dates of grant of the share options.
+```
+I will reconstruct the text into table and notes format as requested, focusing on the sections related to substantial shareholders' holdings.
+
+Group 1:
+
+Summary: ```txt
+This group provides information about substantial shareholders' interests in the shares or underlying shares of the Company as of 30 June 2023, as recorded in the register required under section 336 of the SFO.
+```
+
+Reconstructed table: ```csv
+Name,Nature of interest,Number of Shares held/interested,Percentage of issued Shares,Number of underlying Shares under share option schemes,Total percentage (including underlying Shares)
+Ms. TO Hau Yin,Spouse,464464000,25.42%,1855000,25.52%
+Mr. YEH V-Nee,Beneficial,298705324,16.35%,0,16.35%
+Mrs. YEH Mira,Spouse,298705324,16.35%,0,16.35%
+Cheah Capital Management Limited,Beneficial,403730484,22.10%,0,22.10%
+Cheah Company Limited,Corporate,403730484,22.10%,0,22.10%
+Zedra Jersey Nominee Company Limited,Nominee,403730484,22.10%,0,22.10%
+Zedra Jersey Trust Corporation Limited,Trustee,403730484,22.10%,0,22.10%
+Haitong Securities Co. Ltd.,Corporate,182669200,9.99%,0,9.99%
+```
+
+Notes: ```md
+1. Ms. TO Hau Yin is the spouse of Dato' Seri CHEAH Cheng Hye.
+2. Mrs. YEH Mira is the spouse of Mr. YEH V-Nee.
+3. Cheah Company Limited is wholly-owned by Cheah Capital Management Limited which is in turn wholly-owned by Zedra Jersey Nominee Company Limited, a company controlled by Zedra Jersey Trust Corporation Limited as trustee for a discretionary trust, the discretionary objects of which include Dato' Seri CHEAH Cheng Hye and certain members of his family.
+4. These shares are duplicated in the interests of Dato' Seri CHEAH Cheng Hye and Mr. YEH V-Nee disclosed in the Directors' interests section.
+5. The interests of Haitong Securities Co., Ltd. are held through its controlled corporations.
+```
+}

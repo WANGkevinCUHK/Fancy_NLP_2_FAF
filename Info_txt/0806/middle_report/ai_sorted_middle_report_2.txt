@@ -1,0 +1,27 @@
+I will reconstruct the text into table and notes format as requested, focusing on the sections related to substantial shareholders' holdings.
+
+Group 1:
+
+Summary: ```txt
+This group provides information about substantial shareholders' interests in the shares or underlying shares of the Company as of 30 June 2023, as recorded in the register required under section 336 of the SFO.
+```
+
+Reconstructed table: ```csv
+Name,Nature of interest,Number of Shares held/interested,Percentage of issued Shares,Number of underlying Shares under share option schemes,Total percentage (including underlying Shares)
+Ms. TO Hau Yin,Spouse,464464000,25.42%,1855000,25.52%
+Mr. YEH V-Nee,Beneficial,298705324,16.35%,0,16.35%
+Mrs. YEH Mira,Spouse,298705324,16.35%,0,16.35%
+Cheah Capital Management Limited,Beneficial,403730484,22.10%,0,22.10%
+Cheah Company Limited,Corporate,403730484,22.10%,0,22.10%
+Zedra Jersey Nominee Company Limited,Nominee,403730484,22.10%,0,22.10%
+Zedra Jersey Trust Corporation Limited,Trustee,403730484,22.10%,0,22.10%
+Haitong Securities Co. Ltd.,Corporate,182669200,9.99%,0,9.99%
+```
+
+Notes: ```md
+1. Ms. TO Hau Yin is the spouse of Dato' Seri CHEAH Cheng Hye.
+2. Mrs. YEH Mira is the spouse of Mr. YEH V-Nee.
+3. Cheah Company Limited is wholly-owned by Cheah Capital Management Limited which is in turn wholly-owned by Zedra Jersey Nominee Company Limited, a company controlled by Zedra Jersey Trust Corporation Limited as trustee for a discretionary trust, the discretionary objects of which include Dato' Seri CHEAH Cheng Hye and certain members of his family.
+4. These shares are duplicated in the interests of Dato' Seri CHEAH Cheng Hye and Mr. YEH V-Nee disclosed in the Directors' interests section.
+5. The interests of Haitong Securities Co., Ltd. are held through its controlled corporations.
+```
