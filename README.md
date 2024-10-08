@@ -4,7 +4,7 @@
 Transform diverse equity documents into FAF using Natural Language Processing (NLP) techniques.
 
 ## 📄 Document Types
-- [] 📝 Disclosure Forms
+- [ ] 📝 Disclosure Forms
 - [x] 📊 Reports
 
 ## 🔄 Process Flow
